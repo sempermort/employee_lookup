@@ -78,46 +78,24 @@ function showEmployees(list) {
   }
 
   list.forEach(emp => {
+      const imgUrls = getEmployeeImage(emp["Employee ID"]);
     const card = document.createElement("div");
     card.className = "card mt-3 shadow text-center";
 
-    renderCard(emp, card);
+  // Use CSS fallback with multiple URLs: first try PNG, then JPG, then placeholder
 
-
-    details.appendChild(card);
-    addToHistory(emp);
-  });
-}
-async function getEmployeeImage(empId) {
-  const pngPath = `photos/${empId}.png`;
-  const jpgPath = `photos/${empId}.jpg`;
-  const placeholder = 'photos/placeholder.png';
-
-  // Check if PNG exists
-  try {
-    let res = await fetch(pngPath, { method: 'HEAD' });
-    if (res.ok) return pngPath;
-  } catch {}
-
-  // Check if JPG exists
-  try {
-    let res = await fetch(jpgPath, { method: 'HEAD' });
-    if (res.ok) return jpgPath;
-  } catch {}
-
-  // Fallback
-  return placeholder;
-}
-
-// Usage when rendering the card
-async function renderCard(emp, card) {
-  const imgSrc = await getEmployeeImage(emp["Employee ID"]);
-
-  card.innerHTML = `
-    <div class="card-body">
-      <img src="${imgSrc}"
-           class="img-fluid rounded mb-3"
-           style="width:180px;height:180px;object-fit:cover">
+  card.className = "card mb-3";
+   card.innerHTML = `
+    <div class="card-body text-center">
+      <img class="img-fluid rounded mb-3" 
+           style="width:180px;height:180px;object-fit:cover"
+           src="${imgUrls.placeholder}" 
+           onload="const img = this; 
+                   fetch('${imgUrls.png}', { method:'HEAD' })
+                     .then(r => { if(r.ok) img.src='${imgUrls.png}'; else throw 0; })
+                     .catch(() => fetch('${imgUrls.jpg}', { method:'HEAD' })
+                       .then(r => { if(r.ok) img.src='${imgUrls.jpg}'; })
+                     );">
       <h5>${emp["First Name"]} ${emp["Last Name"]}</h5>
       <p><b>ID:</b> ${emp["Employee ID"]}</p>
       <p><b>Position:</b> ${emp["Position"] || "-"}</p>
@@ -125,6 +103,23 @@ async function renderCard(emp, card) {
       <p><b>Phone:</b> ${emp["Phone"] || "-"}</p>
     </div>
   `;
+
+
+    details.appendChild(card);
+    addToHistory(emp);
+  });
+}
+
+function getEmployeeImage(empId) {
+  // Always start with placeholder
+  const placeholder = 'photos/placeholder.png';
+
+  // Check both PNG and JPG (we will try to load, but fallback immediately)
+  const png = `photos/${empId}.png`;
+  const jpg = `photos/${empId}.jpg`;
+
+  // Return an object with all possible sources
+  return { png, jpg, placeholder };
 }
 
 /* ================================
