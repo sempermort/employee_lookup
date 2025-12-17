@@ -1,4 +1,4 @@
-const employees = [
+export const employees = [
   {
     "First Name": "LUDOVICK FILBERT",
     "Last Name": "NAMBUNGA",
