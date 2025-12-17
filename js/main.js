@@ -1,56 +1,76 @@
+
+import { employees } from "./employees.js";
 let history = [];
 
-// Utility: get query parameter
-function getQueryParam(param) {
-  const urlParams = new URLSearchParams(window.location.search);
-  return urlParams.get(param);
+/* ================================
+   LIVE SEARCH + BUTTON SEARCH
+================================ */
+function setupSearch() {
+  const input = document.getElementById("searchInput");
+  const form = document.getElementById("scanForm");
+
+  // 🔎 Live search while typing
+  input.addEventListener("input", () => {
+    const query = input.value.toLowerCase().trim();
+    if (!query) {
+      clearResults();
+      return;
+    }
+    searchEmployees(query);
+  });
+
+  // 🔍 Search button or Enter key
+  form.addEventListener("submit", e => {
+    e.preventDefault();
+    const query =input.value.toLowerCase().trim();
+    if (!query) return;
+    searchEmployeesExact(query);
+  });
 }
 
-// Lookup an employee by ID
-function lookupEmployee(EmpId) {
-  if (!EmpId) return;
+/* ================================
+   SEARCH LOGIC (YOUR LOGIC)
+================================ */
+function searchEmployees(query) {
+  const filtered = employees.filter(emp =>
+    (emp["First Name"] || "").toLowerCase().includes(query) ||
+    (emp["Last Name"] || "").toLowerCase().includes(query) ||
+    String(emp["Employee ID"]).includes(query) ||
+    (emp["Department"] || "").toLowerCase().includes(query)
+  );
 
-  const inputNumber = parseFloat(EmpId);
-  const employee = employees.find(e => e.EmployeeID === inputNumber);
+  showEmployees(filtered);
+}
+function searchEmployeesExact(query) {
+  const filteris = employees.filter(emp =>
+    (emp["First Name"] || "").toLowerCase() === query ||
+    (emp["Last Name"] || "").toLowerCase() === query ||
+    String(emp["Employee ID"]) === query ||
+    (emp["Department"] || "").toLowerCase() === query
+  );
 
-  if (employee) {
-    playSuccessSound();
-    showEmployee(employee);
-    addToHistory(employee);
-  } else {
-    alert("No record found for ID: " + EmpId);
+  if (filteris.length === 0) {
+    showNotFound(query);
+    return;
   }
+
+  showEmployees(filteris);
 }
 
-// Show a single employee
-function showEmployee(employee) {
-  const details = document.getElementById("employeeDetails");
-
-  const photoPng = `photos/${employee.EmployeeID}.png`;
-  const photoJpg = `photos/${employee.EmployeeID}.jpg`;
-  const placeholder = 'photos/placeholder.png';
-
-  details.innerHTML = `
-    <div class="card mt-4 shadow text-center">
-      <div class="card-body">
-        <img src="${photoPng}" 
-             alt="Photo" 
-             class="img-fluid rounded mb-3" 
-             width="150"
-             onerror="this.onerror=null; this.src='${photoJpg}'; this.onerror=function(){this.src='${placeholder}';}">
-        <h5>${employee.FirstName} ${employee.LastName}</h5>
-        <p><b>ID:</b> ${employee.EmployeeID}</p>
-        <p><b>Position:</b> ${employee.Position}</p>
-        <p><b>Department:</b> ${employee.Department}</p>
-        <p><b>Phone:</b> ${employee.Phone}</p>
-      </div>
-    </div>`;
+function showNotFound(query) {
+  document.getElementById("employeeDetails").innerHTML = `
+    <div class="alert alert-danger mt-3">
+      ❌ No exact match found for <b>"${query}"</b>
+    </div>
+  `;
 }
 
-// Show multiple employees (for live search)
+/* ================================
+   DISPLAY MULTIPLE EMPLOYEES
+================================ */
 function showEmployees(list) {
   const details = document.getElementById("employeeDetails");
-  details.innerHTML = '';
+  details.innerHTML = "";
 
   if (list.length === 0) {
     details.innerHTML = `<p class="text-danger mt-3">No employees found.</p>`;
@@ -59,46 +79,39 @@ function showEmployees(list) {
 
   list.forEach(emp => {
     const card = document.createElement("div");
-    card.className = "card mt-2 shadow text-center";
+    card.className = "card mt-3 shadow text-center";
+
     card.innerHTML = `
       <div class="card-body">
-        <img src="photos/${emp.EmployeeID}.png" 
-             onerror="this.onerror=null;this.src='photos/${emp.EmployeeID}.jpg';this.onerror=function(){this.src='photos/placeholder.png';}" 
-             alt="Photo" class="img-fluid rounded mb-3">
-        <h5>${emp.FirstName} ${emp.LastName}</h5>
-        <p><b>ID:</b> ${emp.EmployeeID}</p>
-        <p><b>Position:</b> ${emp.Position}</p>
-        <p><b>Department:</b> ${emp.Department}</p>
-        <p><b>Phone:</b> ${emp.Phone}</p>
-      </div>`;
+        <img src="photos/${emp["Employee ID"]}.png"
+             class="img-fluid rounded mb-3"
+             style="width:180px;height:180px;object-fit:cover"
+             onerror="this.onerror=null;this.src='photos/${emp["Employee ID"]}.jpg';this.onerror=function(){this.src='photos/placeholder.png';}">
+        <h5>${emp["First Name"]} ${emp["Last Name"]}</h5>
+        <p><b>ID:</b> ${emp["Employee ID"]}</p>
+        <p><b>Position:</b> ${emp["Position"] || "-"}</p>
+        <p><b>Department:</b> ${emp["Department"]}</p>
+        <p><b>Phone:</b> ${emp["Phone"] || "-"}</p>
+      </div>
+    `;
+
     details.appendChild(card);
+    addToHistory(emp);
   });
 }
 
-// Live search
-function setupSearch() {
-  const input = document.getElementById("searchInput");
-  input.addEventListener("input", e => {
-    const query = e.target.value.toLowerCase().trim();
-    if (!query) {
-      document.getElementById("employeeDetails").innerHTML = '';
-      return;
-    }
-
-const filtered = employees.filter(emp =>
-    (emp.FirstName || '').toLowerCase().includes(query) ||
-    (emp.LastName || '').toLowerCase().includes(query) ||
-    emp.EmployeeID.toString() === query ||
-    (emp.Department || '').toLowerCase().includes(query)
-);
-
-
-    showEmployees(filtered);
-  });
+/* ================================
+   CLEAR RESULTS
+================================ */
+function clearResults() {
+  document.getElementById("employeeDetails").innerHTML = "";
 }
 
-// History
+/* ================================
+   HISTORY
+================================ */
 function addToHistory(employee) {
+  history = history.filter(e => e["Employee ID"] !== employee["Employee ID"]);
   history.unshift(employee);
   if (history.length > 10) history.pop();
   updateHistoryView();
@@ -109,31 +122,29 @@ function updateHistoryView() {
   if (!container) return;
 
   container.innerHTML = history
-    .map(e => `<li class="list-group-item">${e.FirstName} ${e.LastName} - ${e.EmployeeID}</li>`)
+    .map(e => `
+      <li class="list-group-item">
+        ${e["First Name"]} ${e["Last Name"]} – ${e["Employee ID"]}
+      </li>
+    `)
     .join("");
 }
 
-// Success sound
+/* ================================
+   SOUND
+================================ */
 function playSuccessSound() {
-  const audio = new Audio("sounds/success.mp3");
-  audio.play();
+  const audio = document.getElementById("successSound");
+  if (audio) audio.play();
 }
 
-// On page load
+/* ================================
+   INIT
+================================ */
 window.addEventListener("DOMContentLoaded", () => {
-  setupSearch();
-
-  // Barcode from URL
-  const id = getQueryParam("id");
-  if (id) lookupEmployee(id);
-
-  // Search form submission
-  const form = document.getElementById("scanForm");
-  if (form) {
-    form.addEventListener("submit", e => {
-      e.preventDefault();
-      const idInput = document.getElementById("barcodeInput");
-      if (idInput && idInput.value) lookupEmployee(idInput.value.trim());
-    });
+  if (typeof employees === "undefined") {
+    alert("employees.js not loaded!");
+    return;
   }
+  setupSearch();
 });
