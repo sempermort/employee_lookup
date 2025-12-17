@@ -81,23 +81,50 @@ function showEmployees(list) {
     const card = document.createElement("div");
     card.className = "card mt-3 shadow text-center";
 
-    card.innerHTML = `
-      <div class="card-body">
-        <img src="photos/${emp["Employee ID"]}.png"
-             class="img-fluid rounded mb-3"
-             style="width:180px;height:180px;object-fit:cover"
-             onerror="this.onerror=null;this.src='photos/${emp["Employee ID"]}.jpg';this.onerror=function(){this.src='photos/placeholder.png';}">
-        <h5>${emp["First Name"]} ${emp["Last Name"]}</h5>
-        <p><b>ID:</b> ${emp["Employee ID"]}</p>
-        <p><b>Position:</b> ${emp["Position"] || "-"}</p>
-        <p><b>Department:</b> ${emp["Department"]}</p>
-        <p><b>Phone:</b> ${emp["Phone"] || "-"}</p>
-      </div>
-    `;
+    renderCard(emp, card);
+
 
     details.appendChild(card);
     addToHistory(emp);
   });
+}
+async function getEmployeeImage(empId) {
+  const pngPath = `photos/${empId}.png`;
+  const jpgPath = `photos/${empId}.jpg`;
+  const placeholder = 'photos/placeholder.png';
+
+  // Check if PNG exists
+  try {
+    let res = await fetch(pngPath, { method: 'HEAD' });
+    if (res.ok) return pngPath;
+  } catch {}
+
+  // Check if JPG exists
+  try {
+    let res = await fetch(jpgPath, { method: 'HEAD' });
+    if (res.ok) return jpgPath;
+  } catch {}
+
+  // Fallback
+  return placeholder;
+}
+
+// Usage when rendering the card
+async function renderCard(emp, card) {
+  const imgSrc = await getEmployeeImage(emp["Employee ID"]);
+
+  card.innerHTML = `
+    <div class="card-body">
+      <img src="${imgSrc}"
+           class="img-fluid rounded mb-3"
+           style="width:180px;height:180px;object-fit:cover">
+      <h5>${emp["First Name"]} ${emp["Last Name"]}</h5>
+      <p><b>ID:</b> ${emp["Employee ID"]}</p>
+      <p><b>Position:</b> ${emp["Position"] || "-"}</p>
+      <p><b>Department:</b> ${emp["Department"]}</p>
+      <p><b>Phone:</b> ${emp["Phone"] || "-"}</p>
+    </div>
+  `;
 }
 
 /* ================================

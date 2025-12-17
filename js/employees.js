@@ -10375,5 +10375,14 @@ export const employees = [
     "Phone": 743626600,
     "Position": "AMBULANCE DRIVER",
     "Position WORD": NaN
+  },
+    {
+    "First Name": " JACKSON KARUME",
+    "Last Name": "MISIRO",
+    "Employee ID": 3217,
+    "Department": "IT",
+    "Phone": 762272624,
+    "Position": "IT OFFICER",
+    "Position WORD": NaN
   }
 ];
