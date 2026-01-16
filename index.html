@@ -14,6 +14,16 @@
       background-color: #f8f9fa;
     }
 
+    /* 🔒 Sticky search bar */
+    .sticky-search {
+      position: sticky;
+      top: 0;
+      z-index: 1020;
+      background: #f8f9fa;
+      padding: 10px 0;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    }
+
     img.employee-photo {
       width: 100%;
       max-width: 180px;
@@ -33,26 +43,28 @@
 <body class="p-3 p-md-4">
 
 <div class="container text-center">
-  <h2 class="mb-4 text-success fw-bold">Employee Lookup System</h2>
 
-  <!-- SEARCH FORM -->
-  <form id="scanForm" class="mb-4">
-    <div class="input-group input-group-lg">
-      <input
-        type="text"
-        id="searchInput"
-        class="form-control text-center"
-        placeholder="Search by ID, name, or department">
+  <h2 class="mb-3 text-success fw-bold">Employee Lookup System</h2>
 
-      <!-- EXACT SEARCH BUTTON -->
-      <button class="btn btn-success" type="submit">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </form>
+  <!-- 🔒 STICKY SEARCH BAR -->
+  <div class="sticky-search">
+    <form id="scanForm">
+      <div class="input-group input-group-lg">
+        <input
+          type="text"
+          id="searchInput"
+          class="form-control text-center"
+          placeholder="Search by ID, name, or department">
+
+        <button class="btn btn-success" type="submit">
+          <i class="bi bi-search"></i>
+        </button>
+      </div>
+    </form>
+  </div>
 
   <!-- RESULTS -->
-  <div id="employeeDetails"></div>
+  <div id="employeeDetails" class="mt-4"></div>
 
   <!-- HISTORY -->
   <div id="history" class="mt-4">
@@ -63,7 +75,6 @@
 
 <audio id="successSound" src="sounds/success.mp3" preload="auto"></audio>
 
-<!-- MODULES -->
 <script type="module" src="js/main.js"></script>
 </body>
 </html>
