@@ -4571,6 +4571,15 @@ export const employees = [
     "Position": "HSE",
     "Position WORD": "HSE"
   },
+    {
+    "First Name": "Jackson karume",
+    "Last Name": "Misiro",
+    "Employee ID": 3217,
+    "Department": "IT",
+    "Phone": "0762272426",
+    "Position": "IT OFFICER",
+    "Position WORD": "IT OFFICER"
+  },
   {
     "First Name": "GIRU NZUMBI",
     "Last Name": "MALELEMBA",
