@@ -1,15 +1,47 @@
-
 import { employees } from "./employees.js";
+
 let history = [];
+const imageCache = new Map();
 
 /* ================================
-   LIVE SEARCH + BUTTON SEARCH
+   IMAGE LOADER (FAST + CACHED)
+================================ */
+function loadEmployeeImage(imgEl, empId) {
+  if (imageCache.has(empId)) {
+    imgEl.src = imageCache.get(empId);
+    return;
+  }
+
+  const png = `photos/${empId}.png`;
+  const jpg = `photos/${empId}.jpg`;
+
+  const test = new Image();
+  test.onload = () => {
+    imageCache.set(empId, png);
+    imgEl.src = png;
+  };
+  test.onerror = () => {
+    const testJpg = new Image();
+    testJpg.onload = () => {
+      imageCache.set(empId, jpg);
+      imgEl.src = jpg;
+    };
+    testJpg.onerror = () => {
+      imageCache.set(empId, "photos/placeholder.png");
+    };
+    testJpg.src = jpg;
+  };
+  test.src = png;
+}
+
+/* ================================
+   SEARCH SETUP
 ================================ */
 function setupSearch() {
   const input = document.getElementById("searchInput");
   const form = document.getElementById("scanForm");
 
-  // 🔎 Live search while typing
+  // 🔎 Live search (contains)
   input.addEventListener("input", () => {
     const query = input.value.toLowerCase().trim();
     if (!query) {
@@ -19,17 +51,17 @@ function setupSearch() {
     searchEmployees(query);
   });
 
-  // 🔍 Search button or Enter key
+  // 🔍 Button / Enter → EXACT search
   form.addEventListener("submit", e => {
     e.preventDefault();
-    const query =input.value.toLowerCase().trim();
+    const query = input.value.toLowerCase().trim();
     if (!query) return;
     searchEmployeesExact(query);
   });
 }
 
 /* ================================
-   SEARCH LOGIC (YOUR LOGIC)
+   SEARCH LOGIC
 ================================ */
 function searchEmployees(query) {
   const filtered = employees.filter(emp =>
@@ -41,32 +73,25 @@ function searchEmployees(query) {
 
   showEmployees(filtered);
 }
+
 function searchEmployeesExact(query) {
-  const filteris = employees.filter(emp =>
+  const filtered = employees.filter(emp =>
     (emp["First Name"] || "").toLowerCase() === query ||
     (emp["Last Name"] || "").toLowerCase() === query ||
     String(emp["Employee ID"]) === query ||
     (emp["Department"] || "").toLowerCase() === query
   );
 
-  if (filteris.length === 0) {
+  if (filtered.length === 0) {
     showNotFound(query);
     return;
   }
 
-  showEmployees(filteris);
-}
-
-function showNotFound(query) {
-  document.getElementById("employeeDetails").innerHTML = `
-    <div class="alert alert-danger mt-3">
-      ❌ No exact match found for <b>"${query}"</b>
-    </div>
-  `;
+  showEmployees(filtered);
 }
 
 /* ================================
-   DISPLAY MULTIPLE EMPLOYEES
+   DISPLAY RESULTS
 ================================ */
 function showEmployees(list) {
   const details = document.getElementById("employeeDetails");
@@ -78,52 +103,46 @@ function showEmployees(list) {
   }
 
   list.forEach(emp => {
-      const imgUrls = getEmployeeImage(emp["Employee ID"]);
     const card = document.createElement("div");
-    card.className = "card mt-3 shadow text-center";
+    card.className = "card mb-3 shadow text-center";
 
-  // Use CSS fallback with multiple URLs: first try PNG, then JPG, then placeholder
+    card.innerHTML = `
+      <div class="card-body text-center">
+        <img class="img-fluid rounded mb-3 employee-img"
+             data-id="${emp["Employee ID"]}"
+             src="photos/placeholder.png"
+             style="width:180px;height:180px;object-fit:cover">
 
-  card.className = "card mb-3";
-   card.innerHTML = `
-    <div class="card-body text-center">
-      <img class="img-fluid rounded mb-3" 
-           style="width:180px;height:180px;object-fit:cover"
-           src="${imgUrls.placeholder}" 
-           onload="const img = this; 
-                   fetch('${imgUrls.png}', { method:'HEAD' })
-                     .then(r => { if(r.ok) img.src='${imgUrls.png}'; else throw 0; })
-                     .catch(() => fetch('${imgUrls.jpg}', { method:'HEAD' })
-                       .then(r => { if(r.ok) img.src='${imgUrls.jpg}'; })
-                     );">
-      <h5>${emp["First Name"]} ${emp["Last Name"]}</h5>
-      <p><b>ID:</b> ${emp["Employee ID"]}</p>
-      <p><b>Position:</b> ${emp["Position"] || "-"}</p>
-      <p><b>Department:</b> ${emp["Department"]}</p>
-      <p><b>Phone:</b> ${emp["Phone"] || "-"}</p>
-    </div>
-  `;
-
+        <h5>${emp["First Name"]} ${emp["Last Name"]}</h5>
+        <p><b>ID:</b> ${emp["Employee ID"]}</p>
+        <p><b>Position:</b> ${emp["Position"] || "-"}</p>
+        <p><b>Department:</b> ${emp["Department"]}</p>
+        <p><b>Phone:</b> ${emp["Phone"] || "-"}</p>
+      </div>
+    `;
 
     details.appendChild(card);
+
+    const img = card.querySelector(".employee-img");
+    loadEmployeeImage(img, emp["Employee ID"]);
+
     addToHistory(emp);
   });
 }
 
-function getEmployeeImage(empId) {
-  // Always start with placeholder
-  const placeholder = 'photos/placeholder.png';
-
-  // Check both PNG and JPG (we will try to load, but fallback immediately)
-  const png = `photos/${empId}.png`;
-  const jpg = `photos/${empId}.jpg`;
-
-  // Return an object with all possible sources
-  return { png, jpg, placeholder };
+/* ================================
+   NOT FOUND MESSAGE
+================================ */
+function showNotFound(query) {
+  document.getElementById("employeeDetails").innerHTML = `
+    <div class="alert alert-danger mt-3">
+      ❌ No exact match found for <b>"${query}"</b>
+    </div>
+  `;
 }
 
 /* ================================
-   CLEAR RESULTS
+   CLEAR
 ================================ */
 function clearResults() {
   document.getElementById("employeeDetails").innerHTML = "";
@@ -132,32 +151,24 @@ function clearResults() {
 /* ================================
    HISTORY
 ================================ */
-function addToHistory(employee) {
-  history = history.filter(e => e["Employee ID"] !== employee["Employee ID"]);
-  history.unshift(employee);
+function addToHistory(emp) {
+  history = history.filter(e => e["Employee ID"] !== emp["Employee ID"]);
+  history.unshift(emp);
   if (history.length > 10) history.pop();
   updateHistoryView();
 }
 
 function updateHistoryView() {
-  const container = document.getElementById("historyList");
-  if (!container) return;
+  const list = document.getElementById("historyList");
+  if (!list) return;
 
-  container.innerHTML = history
+  list.innerHTML = history
     .map(e => `
       <li class="list-group-item">
         ${e["First Name"]} ${e["Last Name"]} – ${e["Employee ID"]}
       </li>
     `)
     .join("");
-}
-
-/* ================================
-   SOUND
-================================ */
-function playSuccessSound() {
-  const audio = document.getElementById("successSound");
-  if (audio) audio.play();
 }
 
 /* ================================
