@@ -12,12 +12,30 @@ const USERS = [
   { username: "hr", password: "hr123" }
 ];
 
+// ===== ELEMENTS =====
+const form = document.getElementById("loginForm");
+const statusText = document.getElementById("loginStatus");
+
+const usernameInput = document.getElementById("username");
+const passwordInput = document.getElementById("password");
+const toggleBtn = document.getElementById("togglePassword");
+const toggleIcon = toggleBtn.querySelector("i");
+
+// ===== SHOW / HIDE PASSWORD =====
+toggleBtn.addEventListener("click", () => {
+  const isHidden = passwordInput.type === "password";
+
+  passwordInput.type = isHidden ? "text" : "password";
+
+  toggleIcon.classList.toggle("bi-eye");
+  toggleIcon.classList.toggle("bi-eye-slash");
+});
 /* ================================
    LOGIN HANDLER
 ================================ */
 document.addEventListener("DOMContentLoaded", () => {
-  const form = document.getElementById("loginForm");
-  const errorBox = document.getElementById("loginError");
+ 
+
 
   // Already logged in?
   if (isSessionValid()) {
@@ -50,8 +68,8 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   function showError(msg) {
-    errorBox.textContent = msg;
-    errorBox.classList.remove("d-none");
+    statusText.textContent = msg;
+    statusText.classList.remove("d-none");
   }
 });
 
