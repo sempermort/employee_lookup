@@ -3,6 +3,35 @@ import { employees } from "./employees.js";
 let history = [];
 const imageCache = new Map();
 
+
+/* ================================
+   🔐 SESSION CHECK (AUTO LOGOUT)
+================================ */
+(function checkSession() {
+  const user = localStorage.getItem("loggedInUser");
+  const expiry = localStorage.getItem("sessionExpiry");
+
+  if (!user || !expiry) {
+    logout();
+    return;
+  }
+
+  if (Date.now() > Number(expiry)) {
+    alert("Session expired. Please login again.");
+    logout();
+  }
+})();
+
+
+/* ================================
+   LOGOUT
+================================ */
+function logout() {
+  localStorage.removeItem("loggedInUser");
+  localStorage.removeItem("sessionExpiry");
+  window.location.href = "login.html";
+}
+
 /* ================================
    IMAGE LOADER (FAST + CACHED)
 ================================ */
@@ -171,9 +200,9 @@ function updateHistoryView() {
     .join("");
 }
 
-/* ================================
+
    INIT
-================================ */
+/*================================ */
 window.addEventListener("DOMContentLoaded", () => {
   if (typeof employees === "undefined") {
     alert("employees.js not loaded!");
