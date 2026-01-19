@@ -201,8 +201,8 @@ function updateHistoryView() {
 }
 
 
-   INIT
-/*================================ */
+/*   INIT
+================================ */
 window.addEventListener("DOMContentLoaded", () => {
   if (typeof employees === "undefined") {
     alert("employees.js not loaded!");
