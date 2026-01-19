@@ -26,12 +26,14 @@ const imageCache = new Map();
 /* ================================
    LOGOUT
 ================================ */
-function logout() {
+ function logout() {
   localStorage.removeItem("loggedInUser");
   localStorage.removeItem("sessionExpiry");
   window.location.href = "login.html";
 }
 
+
+document.getElementById("logoutButton")?.addEventListener("click", logout);
 /* ================================
    IMAGE LOADER (FAST + CACHED)
 ================================ */
