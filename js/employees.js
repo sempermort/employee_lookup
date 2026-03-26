@@ -11597,8 +11597,8 @@ export const employees = [
     "Employee ID": 2844,
     "Department": "SHEQ",
     "Phone": "629899261",
-    "Position": "NURSE",
-    "Position WORD": "NURSE"
+    "Position": "DOCTOR",
+    "Position WORD": "DOCTOR"
   },
   {
     "First Name": "VANESA",
