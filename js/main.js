@@ -49,13 +49,17 @@ function loadEmployeeImage(imgEl, empId) {
   const test = new Image();
   test.onload = () => {
     imageCache.set(empId, png);
-    imgEl.src = png;
+    window.onload = () => {
+      imgEl.src = png;
+    };
   };
   test.onerror = () => {
     const testJpg = new Image();
     testJpg.onload = () => {
       imageCache.set(empId, jpg);
-      imgEl.src = jpg;
+      window.onload = () => {
+        imgEl.src = jpg;
+      };
     };
     testJpg.onerror = () => {
       imageCache.set(empId, "photos/placeholder.png");
@@ -133,6 +137,8 @@ function showEmployees(list) {
     return;
   }
 
+  const fragment = document.createDocumentFragment();
+
   list.forEach(emp => {
     const card = document.createElement("div");
     card.className = "card mb-3 shadow text-center";
@@ -152,13 +158,15 @@ function showEmployees(list) {
       </div>
     `;
 
-    details.appendChild(card);
+    fragment.appendChild(card);
 
     const img = card.querySelector(".employee-img");
     loadEmployeeImage(img, emp["Employee ID"]);
 
     addToHistory(emp);
   });
+
+  details.appendChild(fragment);
 }
 
 /* ================================
@@ -193,13 +201,17 @@ function updateHistoryView() {
   const list = document.getElementById("historyList");
   if (!list) return;
 
-  list.innerHTML = history
-    .map(e => `
-      <li class="list-group-item">
-        ${e["First Name"]} ${e["Last Name"]} – ${e["Employee ID"]}
-      </li>
-    `)
-    .join("");
+  const fragment = document.createDocumentFragment();
+  
+  history.forEach(e => {
+    const li = document.createElement("li");
+    li.className = "list-group-item";
+    li.textContent = `${e["First Name"]} ${e["Last Name"]} – ${e["Employee ID"]}`;
+    fragment.appendChild(li);
+  });
+
+  list.innerHTML = "";
+  list.appendChild(fragment);
 }
 
 
