@@ -49,17 +49,13 @@ function loadEmployeeImage(imgEl, empId) {
   const test = new Image();
   test.onload = () => {
     imageCache.set(empId, png);
-    window.onload = () => {
-      imgEl.src = png;
-    };
+    imgEl.src = png;
   };
   test.onerror = () => {
     const testJpg = new Image();
     testJpg.onload = () => {
       imageCache.set(empId, jpg);
-      window.onload = () => {
-        imgEl.src = jpg;
-      };
+      imgEl.src = jpg;
     };
     testJpg.onerror = () => {
       imageCache.set(empId, "photos/placeholder.png");
