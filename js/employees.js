@@ -45,6 +45,24 @@ export const employees = [
     "Position WORD": null
   },
   {
+    "First Name": "SHUKRANI MESHACK",
+    "Last Name": "KAMULI",
+    "Employee ID": 5516,
+    "Department": "ADMINISTRATION",
+    "Phone": "753550636",
+    "Position": "CHEF",
+    "Position WORD": "CHEF"
+  },
+  {
+    "First Name": "JULIETH DORINO",
+    "Last Name": "MOTEE",
+    "Employee ID": 6049,
+    "Department": "ADMINISTRATION",
+    "Phone": null,
+    "Position": "DATA CLERK ACCOUNT",
+    "Position WORD": "DATA CLERK ACCOUNT"
+  },
+  {
     "First Name": "DAVID ANGOLELEGE",
     "Last Name": "MWASAMBO",
     "Employee ID": 7,
@@ -228,33 +246,6 @@ export const employees = [
     "First Name": "EBRON",
     "Last Name": "EVARISTO",
     "Employee ID": 927,
-    "Department": "AGRICULTURE",
-    "Phone": null,
-    "Position": "GENERAL HELPER",
-    "Position WORD": null
-  },
-  {
-    "First Name": "DIANA",
-    "Last Name": "JUMA",
-    "Employee ID": 1166,
-    "Department": "AGRICULTURE",
-    "Phone": null,
-    "Position": "GENERAL HELPER",
-    "Position WORD": null
-  },
-  {
-    "First Name": "MAJUTO",
-    "Last Name": "KUFULU",
-    "Employee ID": 1167,
-    "Department": "AGRICULTURE",
-    "Phone": null,
-    "Position": "GENERAL HELPER",
-    "Position WORD": null
-  },
-  {
-    "First Name": "YUSTO",
-    "Last Name": "WILLIAM",
-    "Employee ID": 1366,
     "Department": "AGRICULTURE",
     "Phone": null,
     "Position": "GENERAL HELPER",
@@ -777,15 +768,6 @@ export const employees = [
     "First Name": "EMMANUEL JONAS",
     "Last Name": "MAKUMIBIL",
     "Employee ID": 3539,
-    "Department": "AGRICULTURE",
-    "Phone": null,
-    "Position": "GENERAL HELPER",
-    "Position WORD": null
-  },
-  {
-    "First Name": "ALUFAN HAMISI",
-    "Last Name": "CHABOYA",
-    "Employee ID": 3540,
     "Department": "AGRICULTURE",
     "Phone": null,
     "Position": "GENERAL HELPER",
@@ -1344,15 +1326,6 @@ export const employees = [
     "First Name": "SETH WILIJESI",
     "Last Name": "DABAGILIYE",
     "Employee ID": 3984,
-    "Department": "AGRICULTURE",
-    "Phone": null,
-    "Position": "GENERAL HELPER",
-    "Position WORD": null
-  },
-  {
-    "First Name": "MAJALIWA LAMECK",
-    "Last Name": "RAPHAEL",
-    "Employee ID": 3993,
     "Department": "AGRICULTURE",
     "Phone": null,
     "Position": "GENERAL HELPER",
@@ -2025,15 +1998,6 @@ export const employees = [
     "Position WORD": null
   },
   {
-    "First Name": "HESHITON RAPHAEL",
-    "Last Name": "NESTORY",
-    "Employee ID": 4882,
-    "Department": "AGRICULTURE",
-    "Phone": null,
-    "Position": "GENERAL HELPER",
-    "Position WORD": null
-  },
-  {
     "First Name": "FERIKAS MIKAELI",
     "Last Name": "LEYA",
     "Employee ID": 4890,
@@ -2061,27 +2025,9 @@ export const employees = [
     "Position WORD": null
   },
   {
-    "First Name": "RAULENT MEKSEDEKI",
-    "Last Name": "RAULENT",
-    "Employee ID": 4901,
-    "Department": "AGRICULTURE",
-    "Phone": null,
-    "Position": "GENERAL HELPER",
-    "Position WORD": null
-  },
-  {
     "First Name": "DAINES LAURENT",
     "Last Name": "BIYARUSHENGO",
     "Employee ID": 4902,
-    "Department": "AGRICULTURE",
-    "Phone": null,
-    "Position": "GENERAL HELPER",
-    "Position WORD": null
-  },
-  {
-    "First Name": "ELIUD NTEZILIBA",
-    "Last Name": "KAGINA",
-    "Employee ID": 4906,
     "Department": "AGRICULTURE",
     "Phone": null,
     "Position": "GENERAL HELPER",
@@ -2565,15 +2511,6 @@ export const employees = [
     "Position WORD": null
   },
   {
-    "First Name": "MELINAS JIKONIAS",
-    "Last Name": "NELSON",
-    "Employee ID": 3542,
-    "Department": "AGRICULTURE",
-    "Phone": null,
-    "Position": "GENERAL HELPER",
-    "Position WORD": null
-  },
-  {
     "First Name": "JENIFER  FRANCIS",
     "Last Name": "KWANGU",
     "Employee ID": 5069,
@@ -2646,6 +2583,546 @@ export const employees = [
     "Position WORD": "GENERAL HELPER"
   },
   {
+    "First Name": "ABDU ZAWADI",
+    "Last Name": "SIZI",
+    "Employee ID": 3591,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "ABIHUDI OBEDI",
+    "Last Name": "MCHASI",
+    "Employee ID": 4097,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "AMAN IBRAHIM",
+    "Last Name": "MIGANAMO",
+    "Employee ID": 6210,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "AMAN WILIDESI",
+    "Last Name": "HARUNA",
+    "Employee ID": 6217,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "AMANI KAMILIUS",
+    "Last Name": "JACOBO",
+    "Employee ID": 4099,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "AMON HUSSEIN",
+    "Last Name": "NCHURA",
+    "Employee ID": 6187,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "ANORD SHAURI",
+    "Last Name": "MARTINE",
+    "Employee ID": 6208,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "AVIJAN AMOS",
+    "Last Name": "KAMULENGA",
+    "Employee ID": 6180,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "BARAKA JOSEPH",
+    "Last Name": "SHUNDU",
+    "Employee ID": 6195,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "BEKAM AZIMIO",
+    "Last Name": "MAJORO",
+    "Employee ID": 6199,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "BEST ELISHA",
+    "Last Name": "NDAHIBA",
+    "Employee ID": 6220,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "DANIEL LIBETH",
+    "Last Name": "HARUNA",
+    "Employee ID": 6179,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "EDSON KANGUYE",
+    "Last Name": "KACHIRA",
+    "Employee ID": 6219,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "ELIAS MKABIRA",
+    "Last Name": "DYANKA",
+    "Employee ID": 6214,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "ELIAS NTABANDI",
+    "Last Name": "RUMANIKA",
+    "Employee ID": 6216,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "ELISHA BAHAT",
+    "Last Name": "MASUDI",
+    "Employee ID": 6189,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "EZEKIEL DAUD",
+    "Last Name": "CHARES",
+    "Employee ID": 6192,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "FILBERT DOKWINA",
+    "Last Name": "BOMBONA",
+    "Employee ID": 6194,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "FURAHA CONDOGORO",
+    "Last Name": "KAZILIZILI",
+    "Employee ID": 6213,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "GIDION BRENDA",
+    "Last Name": "NZEYE",
+    "Employee ID": 6178,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "HIARI HAMIS",
+    "Last Name": "KAMALASABO",
+    "Employee ID": 6173,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "ISAKA STAPHORD",
+    "Last Name": "JULIUS",
+    "Employee ID": 6205,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "JACOBO RICHARD",
+    "Last Name": "NDAYANSE",
+    "Employee ID": 6200,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "JAMES DUNIA",
+    "Last Name": "BUKURU",
+    "Employee ID": 6190,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "JANSON MIKOLA",
+    "Last Name": "JUMA",
+    "Employee ID": 6222,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "JEKONIA ELIUD",
+    "Last Name": "NENGESELI",
+    "Employee ID": 6198,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "JERAD PIUS",
+    "Last Name": "NTOSHO",
+    "Employee ID": 6218,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "JOFREY JAKOBO",
+    "Last Name": "MDYANKO",
+    "Employee ID": 6191,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "JOHARI SELEMAN",
+    "Last Name": "KALUMBI",
+    "Employee ID": 18,
+    "Department": "AGRICULTURE",
+    "Phone": "620 864 258",
+    "Position": "SUPERVISOR",
+    "Position WORD": "SUPERVISOR"
+  },
+  {
+    "First Name": "JUMA SALUM",
+    "Last Name": "NGUSA",
+    "Employee ID": 6212,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "KALUGENDO PATRICK",
+    "Last Name": "MASAI",
+    "Employee ID": 3991,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "KELVIN KIMARO",
+    "Last Name": "BIGALAGU",
+    "Employee ID": 6183,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "KOBAROGILA MZUKA",
+    "Last Name": "KAWANGA",
+    "Employee ID": 3637,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "LAZARO MATOKEO",
+    "Last Name": "BITIBIE",
+    "Employee ID": 6209,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "LUKAS JUMA",
+    "Last Name": "BARNABA",
+    "Employee ID": 6185,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "MAKES JUMA",
+    "Last Name": "JUMA",
+    "Employee ID": 6221,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "MAMIS SAMSON",
+    "Last Name": "BAGAYA",
+    "Employee ID": 6186,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "MANENO LEONARD",
+    "Last Name": "OBADIA",
+    "Employee ID": 6184,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "MARTHA SHEDRACK",
+    "Last Name": "CHRISTOPHER",
+    "Employee ID": 5927,
+    "Department": "AGRICULTURE",
+    "Phone": "753572598",
+    "Position": "INTERN",
+    "Position WORD": "INTERN"
+  },
+  {
+    "First Name": "MASABO KAHATA",
+    "Last Name": "MGANI",
+    "Employee ID": 6206,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "MAWAZO JEREMIA",
+    "Last Name": "MASHALA",
+    "Employee ID": 6203,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "MESHACK KANANI",
+    "Last Name": "MALONKO",
+    "Employee ID": 6174,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "MICHAEL DANIFORD",
+    "Last Name": "SAKANKA",
+    "Employee ID": 3357,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "MIKIDADI KILIZA",
+    "Last Name": "ABDALLAH",
+    "Employee ID": 6202,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "MUSSA JUMA",
+    "Last Name": "SALONO",
+    "Employee ID": 6176,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "NDIKUMANA DANIEL",
+    "Last Name": "KAZEBHA",
+    "Employee ID": 6207,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "NEVAS KAMULENGA",
+    "Last Name": "LIKOMA",
+    "Employee ID": 6197,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "OSWARD GABRIEL",
+    "Last Name": "MRISHO",
+    "Employee ID": 6188,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "RAMADHAN HAJI",
+    "Last Name": "MFAUME",
+    "Employee ID": 6181,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "RASHID JUMA",
+    "Last Name": "SALUM",
+    "Employee ID": 6177,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "RECKSON KAMULENGA",
+    "Last Name": "LIKOMA",
+    "Employee ID": 6196,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "RISASI KHAMIS",
+    "Last Name": "HALUBU",
+    "Employee ID": 6223,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "SADOCK YUSUPH",
+    "Last Name": "NYAMSIGA",
+    "Employee ID": 6215,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "SAHANI MAYUNGA",
+    "Last Name": "MZAGABULU",
+    "Employee ID": 6211,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "SALIMIN GERALD",
+    "Last Name": "MIYEYE",
+    "Employee ID": 6175,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "SAMWEL RICHARD",
+    "Last Name": "MAYUNGA",
+    "Employee ID": 6182,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "TRAIPHONE JULIUS",
+    "Last Name": "MJIGI",
+    "Employee ID": 6172,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "VICENT ENOCK",
+    "Last Name": "MISIGARO",
+    "Employee ID": 6201,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "YEREMIA IBRAHIM",
+    "Last Name": "MTUNGAMO",
+    "Employee ID": 6193,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
+    "First Name": "ZAKAYO PAUL",
+    "Last Name": "FILIPO",
+    "Employee ID": 6204,
+    "Department": "AGRICULTURE",
+    "Phone": null,
+    "Position": "CANE CUTTER",
+    "Position WORD": "CANE CUTTER"
+  },
+  {
     "First Name": "YOSHUA",
     "Last Name": "PETRO",
     "Employee ID": 82,
@@ -2673,20 +3150,11 @@ export const employees = [
     "Position WORD": "CARPENTER"
   },
   {
-    "First Name": "MICHAEL",
-    "Last Name": "JUMA",
-    "Employee ID": 226,
-    "Department": "CIVIL",
-    "Phone": null,
-    "Position": "HELPER",
-    "Position WORD": "HELPER"
-  },
-  {
     "First Name": "RAYSON",
     "Last Name": "JAMES",
     "Employee ID": 228,
     "Department": "CIVIL",
-    "Phone": null,
+    "Phone": "759722957",
     "Position": "HELPER",
     "Position WORD": "HELPER"
   },
@@ -2811,15 +3279,6 @@ export const employees = [
     "First Name": "HAKI",
     "Last Name": "JULIUS",
     "Employee ID": 2672,
-    "Department": "CIVIL",
-    "Phone": null,
-    "Position": "HELPER",
-    "Position WORD": "HELPER"
-  },
-  {
-    "First Name": "TRYPHONE",
-    "Last Name": "PROTAS",
-    "Employee ID": 2673,
     "Department": "CIVIL",
     "Phone": null,
     "Position": "HELPER",
@@ -3510,15 +3969,6 @@ export const employees = [
     "Position WORD": null
   },
   {
-    "First Name": "BENEEDICTO JAMES",
-    "Last Name": "MAGULU",
-    "Employee ID": 4720,
-    "Department": "CIVIL",
-    "Phone": "749502098",
-    "Position": "CIVIL HELPER",
-    "Position WORD": null
-  },
-  {
     "First Name": "DICKSON SAIMON",
     "Last Name": "MATHEW",
     "Employee ID": 4722,
@@ -3687,15 +4137,6 @@ export const employees = [
     "Department": "CIVIL",
     "Phone": "744977594",
     "Position": "HELPER",
-    "Position WORD": null
-  },
-  {
-    "First Name": "HASHIM HAMAD",
-    "Last Name": "MIYEYE",
-    "Employee ID": 5073,
-    "Department": "CIVIL",
-    "Phone": "750787013",
-    "Position": "CIVIL HELPER",
     "Position WORD": null
   },
   {
@@ -4230,6 +4671,825 @@ export const employees = [
     "Position WORD": "CIVIL HELPER"
   },
   {
+    "First Name": "SELEMANI TABU",
+    "Last Name": "BUSAGE",
+    "Employee ID": 3951,
+    "Department": "CIVIL",
+    "Phone": "754970617",
+    "Position": "CIVIL SUPERVISOR",
+    "Position WORD": "CIVIL SUPERVISOR"
+  },
+  {
+    "First Name": "ANCILLA PIUS",
+    "Last Name": "MANYOTA",
+    "Employee ID": 5550,
+    "Department": "CIVIL",
+    "Phone": "612583010",
+    "Position": "DATA CLERK TRAINEE",
+    "Position WORD": "DATA CLERK TRAINEE"
+  },
+  {
+    "First Name": "ERICK  EMILY",
+    "Last Name": "VENANCE",
+    "Employee ID": 5551,
+    "Department": "CIVIL",
+    "Phone": "768113237",
+    "Position": "DATA CLERK TRAINEE",
+    "Position WORD": "DATA CLERK TRAINEE"
+  },
+  {
+    "First Name": "EMMANUEL GADSON",
+    "Last Name": "BOAZ",
+    "Employee ID": 5684,
+    "Department": "CIVIL",
+    "Phone": "619805792",
+    "Position": "CIVIL HELPER",
+    "Position WORD": "CIVIL HELPER"
+  },
+  {
+    "First Name": "JONAS SAKITWE",
+    "Last Name": "KASINDI",
+    "Employee ID": 5685,
+    "Department": "CIVIL",
+    "Phone": "750009130",
+    "Position": "CIVIL HELPER",
+    "Position WORD": "CIVIL HELPER"
+  },
+  {
+    "First Name": "ELIUD HALELIMANA",
+    "Last Name": "KISUZU",
+    "Employee ID": 5687,
+    "Department": "CIVIL",
+    "Phone": "770742857",
+    "Position": "CIVIL HELPER",
+    "Position WORD": "CIVIL HELPER"
+  },
+  {
+    "First Name": "GIRES BITEMBA",
+    "Last Name": "RUSIMBI",
+    "Employee ID": 5688,
+    "Department": "CIVIL",
+    "Phone": "792101697",
+    "Position": "FOREMEN",
+    "Position WORD": "FOREMEN"
+  },
+  {
+    "First Name": "SAMSON NDICHAYE",
+    "Last Name": "EDWIN",
+    "Employee ID": 5689,
+    "Department": "CIVIL",
+    "Phone": "765131587",
+    "Position": "WELDER",
+    "Position WORD": "WELDER"
+  },
+  {
+    "First Name": "SAMSONI WILSONI",
+    "Last Name": "RUWASA",
+    "Employee ID": 5690,
+    "Department": "CIVIL",
+    "Phone": "753660842",
+    "Position": "CIVIL HELPER",
+    "Position WORD": "CIVIL HELPER"
+  },
+  {
+    "First Name": "ERICK MANENO",
+    "Last Name": "FILIPO",
+    "Employee ID": 5691,
+    "Department": "CIVIL",
+    "Phone": "625553108",
+    "Position": "CIVIL HELPER",
+    "Position WORD": "CIVIL HELPER"
+  },
+  {
+    "First Name": "DISHON ERASTO",
+    "Last Name": "KOHOYE",
+    "Employee ID": 5730,
+    "Department": "CIVIL",
+    "Phone": null,
+    "Position": "CARPENTER",
+    "Position WORD": "CARPENTER"
+  },
+  {
+    "First Name": "BARAKA HAMIS",
+    "Last Name": "NGOMAGI",
+    "Employee ID": 5751,
+    "Department": "CIVIL",
+    "Phone": null,
+    "Position": "STEEL FIXER",
+    "Position WORD": "STEEL FIXER"
+  },
+  {
+    "First Name": "REMIGIOUS METHOD",
+    "Last Name": "RUBALEMA",
+    "Employee ID": 5750,
+    "Department": "CIVIL",
+    "Phone": null,
+    "Position": "FOREMEN",
+    "Position WORD": "FOREMEN"
+  },
+  {
+    "First Name": "ROBSON LUSIBA",
+    "Last Name": "LUGONDAMINAZI",
+    "Employee ID": 5745,
+    "Department": "CIVIL",
+    "Phone": null,
+    "Position": "TR SUPERVISOR",
+    "Position WORD": "TR SUPERVISOR"
+  },
+  {
+    "First Name": "TULIA MASABILE",
+    "Last Name": "MIHUNGO",
+    "Employee ID": 5746,
+    "Department": "CIVIL",
+    "Phone": null,
+    "Position": "CARPENTER",
+    "Position WORD": "CARPENTER"
+  },
+  {
+    "First Name": "YOKTANI GERSHONI",
+    "Last Name": "BAVAKULE",
+    "Employee ID": 5747,
+    "Department": "CIVIL",
+    "Phone": null,
+    "Position": "CARPENTER",
+    "Position WORD": "CARPENTER"
+  },
+  {
+    "First Name": "EMMANUEL RASHID",
+    "Last Name": "NTAGOLEKO",
+    "Employee ID": 5748,
+    "Department": "CIVIL",
+    "Phone": null,
+    "Position": "CIVIL HELPER",
+    "Position WORD": "CIVIL HELPER"
+  },
+  {
+    "First Name": "ESROMU LEOPORD",
+    "Last Name": "YOHANA",
+    "Employee ID": 5735,
+    "Department": "CIVIL",
+    "Phone": null,
+    "Position": "CIVIL HELPER",
+    "Position WORD": "CIVIL HELPER"
+  },
+  {
+    "First Name": "SHEDRACK PHILMON",
+    "Last Name": "KIYOGERA",
+    "Employee ID": 5734,
+    "Department": "CIVIL",
+    "Phone": null,
+    "Position": "CIVIL HELPER",
+    "Position WORD": "CIVIL HELPER"
+  },
+  {
+    "First Name": "MICHAEL BAHATI",
+    "Last Name": "KAVURA",
+    "Employee ID": 5741,
+    "Department": "CIVIL",
+    "Phone": null,
+    "Position": "CIVIL HELPER",
+    "Position WORD": "CIVIL HELPER"
+  },
+  {
+    "First Name": "FALES AYUBU",
+    "Last Name": "CHIZA",
+    "Employee ID": 5737,
+    "Department": "CIVIL",
+    "Phone": null,
+    "Position": "CIVIL HELPER",
+    "Position WORD": "CIVIL HELPER"
+  },
+  {
+    "First Name": "STEWARD RUDOVICK",
+    "Last Name": "SINDAMENYA",
+    "Employee ID": 5739,
+    "Department": "CIVIL",
+    "Phone": null,
+    "Position": "CIVIL HELPER",
+    "Position WORD": "CIVIL HELPER"
+  },
+  {
+    "First Name": "HAMUDU SWALEHE",
+    "Last Name": "LUBUVA",
+    "Employee ID": 5757,
+    "Department": "CIVIL",
+    "Phone": null,
+    "Position": "CIVIL HELPER",
+    "Position WORD": "CIVIL HELPER"
+  },
+  {
+    "First Name": "YONA NASHON",
+    "Last Name": "JUMA",
+    "Employee ID": 5749,
+    "Department": "CIVIL",
+    "Phone": null,
+    "Position": "CARPENTER",
+    "Position WORD": "CARPENTER"
+  },
+  {
+    "First Name": "HELBERTH JACKSON",
+    "Last Name": "CHIZA",
+    "Employee ID": 5754,
+    "Department": "CIVIL",
+    "Phone": null,
+    "Position": "CARPENTER",
+    "Position WORD": "CARPENTER"
+  },
+  {
+    "First Name": "ERICK CHABOYA",
+    "Last Name": "MUYIGE",
+    "Employee ID": 5753,
+    "Department": "CIVIL",
+    "Phone": null,
+    "Position": "CARPENTER",
+    "Position WORD": "CARPENTER"
+  },
+  {
+    "First Name": "ABEL JULIUS",
+    "Last Name": "HALUSHIMANA",
+    "Employee ID": 5728,
+    "Department": "CIVIL",
+    "Phone": null,
+    "Position": "MASON",
+    "Position WORD": "MASON"
+  },
+  {
+    "First Name": "ASHIRU AMADA",
+    "Last Name": "SEMIALI",
+    "Employee ID": 5762,
+    "Department": "CIVIL",
+    "Phone": null,
+    "Position": "STEEL FIXER",
+    "Position WORD": "STEEL FIXER"
+  },
+  {
+    "First Name": "ABDALLAH JACOBO",
+    "Last Name": "BUKOMBE",
+    "Employee ID": 5618,
+    "Department": "CIVIL",
+    "Phone": "747689170",
+    "Position": "CIVIL HELEPR",
+    "Position WORD": "CIVIL HELEPR"
+  },
+  {
+    "First Name": "ELIAS ELISHA",
+    "Last Name": "LUKAS",
+    "Employee ID": 5755,
+    "Department": "CIVIL",
+    "Phone": "764242888",
+    "Position": "MASON",
+    "Position WORD": "MASON"
+  },
+  {
+    "First Name": "EVOD PIUS",
+    "Last Name": "KASHINYA",
+    "Employee ID": 5756,
+    "Department": "CIVIL",
+    "Phone": "769924577",
+    "Position": "MASON",
+    "Position WORD": "MASON"
+  },
+  {
+    "First Name": "AMASHA MATATA",
+    "Last Name": "MAYONDI",
+    "Employee ID": 4916,
+    "Department": "CIVIL",
+    "Phone": "795918861",
+    "Position": "CIVIL HELPER",
+    "Position WORD": "CIVIL HELPER"
+  },
+  {
+    "First Name": "MOZES MOSHI",
+    "Last Name": "BUKURU",
+    "Employee ID": 5759,
+    "Department": "CIVIL",
+    "Phone": "741672398",
+    "Position": "CIVIL HELPER",
+    "Position WORD": "CIVIL HELPER"
+  },
+  {
+    "First Name": "TRAIPHONE",
+    "Last Name": "PROTAS",
+    "Employee ID": 2673,
+    "Department": "CIVIL",
+    "Phone": "770127648",
+    "Position": "CONCRETE MIXER OPERATOR",
+    "Position WORD": "CONCRETE MIXER OPERATOR"
+  },
+  {
+    "First Name": "ESPERIUS KIJWILE",
+    "Last Name": "DYOYA",
+    "Employee ID": 5758,
+    "Department": "CIVIL",
+    "Phone": "624331702",
+    "Position": "MASON",
+    "Position WORD": "MASON"
+  },
+  {
+    "First Name": "JOEL LUCAS",
+    "Last Name": "NTABANDI",
+    "Employee ID": 5864,
+    "Department": "CIVIL",
+    "Phone": "664965693",
+    "Position": "CIVIL HELPER",
+    "Position WORD": "CIVIL HELPER"
+  },
+  {
+    "First Name": "USHINDI LUKAS",
+    "Last Name": "MLISHI",
+    "Employee ID": 5871,
+    "Department": "CIVIL",
+    "Phone": "625850886",
+    "Position": "CIVIL HELPER",
+    "Position WORD": "CIVIL HELPER"
+  },
+  {
+    "First Name": "LAURENCE ROBERT",
+    "Last Name": "LAURENCE",
+    "Employee ID": 5865,
+    "Department": "CIVIL",
+    "Phone": "792071612",
+    "Position": "CIVIL HELPER",
+    "Position WORD": "CIVIL HELPER"
+  },
+  {
+    "First Name": "RICHARD TABU",
+    "Last Name": "BUSAGE",
+    "Employee ID": 5866,
+    "Department": "CIVIL",
+    "Phone": "795048833",
+    "Position": "CIVIL HELPER",
+    "Position WORD": "CIVIL HELPER"
+  },
+  {
+    "First Name": "JONATHAN NTAKIMAZI",
+    "Last Name": "KACHILA",
+    "Employee ID": 5862,
+    "Department": "CIVIL",
+    "Phone": "663141279",
+    "Position": "CARPENTER",
+    "Position WORD": "CARPENTER"
+  },
+  {
+    "First Name": "DEUS LUKAS",
+    "Last Name": "JUMA",
+    "Employee ID": 5870,
+    "Department": "CIVIL",
+    "Phone": "749694883",
+    "Position": "CARPENTER",
+    "Position WORD": "CARPENTER"
+  },
+  {
+    "First Name": "EFRAHIM JUMANNE",
+    "Last Name": "RAMADHAN",
+    "Employee ID": 5863,
+    "Department": "CIVIL",
+    "Phone": "746352657",
+    "Position": "CIVIL HELPER",
+    "Position WORD": "CIVIL HELPER"
+  },
+  {
+    "First Name": "IBRAHIM YONA",
+    "Last Name": "MLANI",
+    "Employee ID": 5811,
+    "Department": "CIVIL",
+    "Phone": null,
+    "Position": "CIVIL HELPER",
+    "Position WORD": "CIVIL HELPER"
+  },
+  {
+    "First Name": "FRANCIS JASTINE",
+    "Last Name": "ANSELIMO",
+    "Employee ID": 5869,
+    "Department": "CIVIL",
+    "Phone": "687803072",
+    "Position": "CARPENTER",
+    "Position WORD": "CARPENTER"
+  },
+  {
+    "First Name": "LAMECK NYAMWERU",
+    "Last Name": "BAHUTA",
+    "Employee ID": 6044,
+    "Department": "CIVIL",
+    "Phone": "759602025",
+    "Position": "CARPENTER",
+    "Position WORD": "CARPENTER"
+  },
+  {
+    "First Name": "FLAVIAN FRANK",
+    "Last Name": "NGEZE",
+    "Employee ID": 6048,
+    "Department": "CIVIL",
+    "Phone": "638439411",
+    "Position": "CARPENTER",
+    "Position WORD": "CARPENTER"
+  },
+  {
+    "First Name": "ALOYCE SAIMON",
+    "Last Name": "PETRO",
+    "Employee ID": 6045,
+    "Department": "CIVIL",
+    "Phone": "757958010",
+    "Position": "CARPENTER",
+    "Position WORD": "CARPENTER"
+  },
+  {
+    "First Name": "MORIS JUMA",
+    "Last Name": "KAZOYA",
+    "Employee ID": 5772,
+    "Department": "CIVIL",
+    "Phone": "712679245",
+    "Position": "CARPENTER",
+    "Position WORD": "CARPENTER"
+  },
+  {
+    "First Name": "REMIUS ABAS",
+    "Last Name": "LUKAS",
+    "Employee ID": 6069,
+    "Department": "CIVIL",
+    "Phone": "759238144",
+    "Position": "CARPENTER",
+    "Position WORD": "CARPENTER"
+  },
+  {
+    "First Name": "ZABRON FREDRICK",
+    "Last Name": "CHICHARO",
+    "Employee ID": 5461,
+    "Department": "CIVIL",
+    "Phone": "742670214",
+    "Position": "CARPENTER",
+    "Position WORD": "CARPENTER"
+  },
+  {
+    "First Name": "WEMA JOSEPHAT",
+    "Last Name": "LUBUBURA",
+    "Employee ID": 6064,
+    "Department": "CIVIL",
+    "Phone": "748989140",
+    "Position": "CARPENTER",
+    "Position WORD": "CARPENTER"
+  },
+  {
+    "First Name": "FLADIUS FRANK",
+    "Last Name": "NGENZI",
+    "Employee ID": 6068,
+    "Department": "CIVIL",
+    "Phone": "760359672",
+    "Position": "CARPENTER",
+    "Position WORD": "CARPENTER"
+  },
+  {
+    "First Name": "JOACKIM JOEL",
+    "Last Name": "KILAHA",
+    "Employee ID": 6070,
+    "Department": "CIVIL",
+    "Phone": "768441379",
+    "Position": "CARPENTER",
+    "Position WORD": "CARPENTER"
+  },
+  {
+    "First Name": "JOHN NICHOLAUS",
+    "Last Name": "CHWATWA",
+    "Employee ID": 6066,
+    "Department": "CIVIL",
+    "Phone": "756218044",
+    "Position": "CARPENTER",
+    "Position WORD": "CARPENTER"
+  },
+  {
+    "First Name": "SAMWEL AUGUSTINO",
+    "Last Name": "RICHARD",
+    "Employee ID": 6071,
+    "Department": "CIVIL",
+    "Phone": "753579991",
+    "Position": "STEEL FIXER",
+    "Position WORD": "STEEL FIXER"
+  },
+  {
+    "First Name": "GADSON ENOCENT",
+    "Last Name": "BRYSON",
+    "Employee ID": 6073,
+    "Department": "CIVIL",
+    "Phone": "756811989",
+    "Position": "STEEL FIXER",
+    "Position WORD": "STEEL FIXER"
+  },
+  {
+    "First Name": "EDSON ALFRED",
+    "Last Name": "PETRO",
+    "Employee ID": 6072,
+    "Department": "CIVIL",
+    "Phone": "767261759",
+    "Position": "STEEL FIXER",
+    "Position WORD": "STEEL FIXER"
+  },
+  {
+    "First Name": "EMILY ENOCK",
+    "Last Name": "KABUGA",
+    "Employee ID": 6074,
+    "Department": "CIVIL",
+    "Phone": "758236610",
+    "Position": "STEEL FIXER",
+    "Position WORD": "STEEL FIXER"
+  },
+  {
+    "First Name": "AYUBU KAPULU",
+    "Last Name": "KILAHA",
+    "Employee ID": 6132,
+    "Department": "CIVIL",
+    "Phone": "765514909",
+    "Position": "STEEL FIXER",
+    "Position WORD": "STEEL FIXER"
+  },
+  {
+    "First Name": "HOSEA AYUBU",
+    "Last Name": "NTAKIMAZI",
+    "Employee ID": 6133,
+    "Department": "CIVIL",
+    "Phone": "62205037",
+    "Position": "STEEL FIXER",
+    "Position WORD": "STEEL FIXER"
+  },
+  {
+    "First Name": "VIANEL BENEDICTO",
+    "Last Name": "LUVAKO",
+    "Employee ID": 6170,
+    "Department": "CIVIL",
+    "Phone": "759376979",
+    "Position": "CIVIL HELPER",
+    "Position WORD": "CIVIL HELPER"
+  },
+  {
+    "First Name": "ALBERT ELIDADI",
+    "Last Name": "MARTINE",
+    "Employee ID": 6159,
+    "Department": "CIVIL",
+    "Phone": "747087774",
+    "Position": "CIVIL HELPER",
+    "Position WORD": "CIVIL HELPER"
+  },
+  {
+    "First Name": "BONEVENTURE BEGELE",
+    "Last Name": "MASALU",
+    "Employee ID": 6232,
+    "Department": "CIVIL",
+    "Phone": "750009475",
+    "Position": "CIVIL HELPER.",
+    "Position WORD": "CIVIL HELPER."
+  },
+  {
+    "First Name": "ENOCK SAMSON",
+    "Last Name": "JUMA",
+    "Employee ID": 6234,
+    "Department": "CIVIL",
+    "Phone": "759451719",
+    "Position": "GENERAL HELPER",
+    "Position WORD": "GENERAL HELPER"
+  },
+  {
+    "First Name": "LEONARD MORTON",
+    "Last Name": "BUDUGO",
+    "Employee ID": 6235,
+    "Department": "CIVIL",
+    "Phone": "755332512",
+    "Position": "GENERAL HELPER",
+    "Position WORD": "GENERAL HELPER"
+  },
+  {
+    "First Name": "IBRAHIM JUMA",
+    "Last Name": "MHEZA",
+    "Employee ID": 6236,
+    "Department": "CIVIL",
+    "Phone": "745220023",
+    "Position": "MASON",
+    "Position WORD": "MASON"
+  },
+  {
+    "First Name": "VICENT SADOCK",
+    "Last Name": "BARANYIKWA",
+    "Employee ID": 6237,
+    "Department": "CIVIL",
+    "Phone": "767748961",
+    "Position": "MASON",
+    "Position WORD": "MASON"
+  },
+  {
+    "First Name": "BEDAS BAYAGA",
+    "Last Name": "MPOFU",
+    "Employee ID": 6238,
+    "Department": "CIVIL",
+    "Phone": "767748961",
+    "Position": "CIVIL HELPER",
+    "Position WORD": "CIVIL HELPER"
+  },
+  {
+    "First Name": "ZAHAKI CHRISTOPHER",
+    "Last Name": "BAVUMA",
+    "Employee ID": 6242,
+    "Department": "CIVIL",
+    "Phone": "766112842",
+    "Position": "CIVIL HELPER",
+    "Position WORD": "CIVIL HELPER"
+  },
+  {
+    "First Name": "SAMWEL DIWALDO",
+    "Last Name": "WALENDO",
+    "Employee ID": 6240,
+    "Department": "CIVIL",
+    "Phone": "628189923",
+    "Position": "CHAINSAW OPERATOR",
+    "Position WORD": "CHAINSAW OPERATOR"
+  },
+  {
+    "First Name": "DIANA JUMA",
+    "Last Name": "NKWEGEYE",
+    "Employee ID": 1166,
+    "Department": "CIVIL",
+    "Phone": "756871166",
+    "Position": "TRACTOR TRAINEE",
+    "Position WORD": "TRACTOR TRAINEE"
+  },
+  {
+    "First Name": "YUSTO",
+    "Last Name": "WILLIAM",
+    "Employee ID": 1366,
+    "Department": "CIVIL",
+    "Phone": "795439541",
+    "Position": "TRACTOR TRAINEE",
+    "Position WORD": "TRACTOR TRAINEE"
+  },
+  {
+    "First Name": "EUSTACE EZEKIEL",
+    "Last Name": "CHRIZANT",
+    "Employee ID": 6248,
+    "Department": "CIVIL",
+    "Phone": "763218192",
+    "Position": "CIVIL SUPERVISOR",
+    "Position WORD": "CIVIL SUPERVISOR"
+  },
+  {
+    "First Name": "MOSES MUSSA",
+    "Last Name": "SUNDALUSIZE",
+    "Employee ID": 6243,
+    "Department": "CIVIL",
+    "Phone": null,
+    "Position": "STEEL FIXER",
+    "Position WORD": "STEEL FIXER"
+  },
+  {
+    "First Name": "ADAM",
+    "Last Name": "KAMBARAGE",
+    "Employee ID": 6427,
+    "Department": "CIVIL",
+    "Phone": "702303397",
+    "Position": "CIVIL HELPER.",
+    "Position WORD": "CIVIL HELPER."
+  },
+  {
+    "First Name": "FILBERT RICHARD",
+    "Last Name": "NGUTO",
+    "Employee ID": 6428,
+    "Department": "CIVIL",
+    "Phone": "768749919",
+    "Position": "CIVIL HELPER.",
+    "Position WORD": "CIVIL HELPER."
+  },
+  {
+    "First Name": "PHITSON MALACK",
+    "Last Name": "PHILBERT",
+    "Employee ID": 4016,
+    "Department": "CIVIL",
+    "Phone": "741640445",
+    "Position": "CIVIL HELPER.",
+    "Position WORD": "CIVIL HELPER."
+  },
+  {
+    "First Name": "EDGAR ABRAHAMU",
+    "Last Name": "BANDI",
+    "Employee ID": 6429,
+    "Department": "CIVIL",
+    "Phone": "793663575",
+    "Position": "CIVIL HELPER.",
+    "Position WORD": "CIVIL HELPER."
+  },
+  {
+    "First Name": "DEUS NASHON",
+    "Last Name": "NGURUBHE",
+    "Employee ID": 6430,
+    "Department": "CIVIL",
+    "Phone": "629888304",
+    "Position": "CIVIL HELPER.",
+    "Position WORD": "CIVIL HELPER."
+  },
+  {
+    "First Name": "ERICK JACKSON",
+    "Last Name": "MALELEGO",
+    "Employee ID": 6431,
+    "Department": "CIVIL",
+    "Phone": "683604625",
+    "Position": "CIVIL HELPER.",
+    "Position WORD": "CIVIL HELPER."
+  },
+  {
+    "First Name": "MARTIN LABAN",
+    "Last Name": "DANISTON",
+    "Employee ID": 6438,
+    "Department": "CIVIL",
+    "Phone": "750662220",
+    "Position": "CIVIL HELPER.",
+    "Position WORD": "CIVIL HELPER."
+  },
+  {
+    "First Name": "AMAN KAHATA",
+    "Last Name": "MGANI",
+    "Employee ID": 6432,
+    "Department": "CIVIL",
+    "Phone": "769439772",
+    "Position": "CIVIL HELPER.",
+    "Position WORD": "CIVIL HELPER."
+  },
+  {
+    "First Name": "JACOBO JUMA",
+    "Last Name": "KAVAMAHANGA",
+    "Employee ID": 6433,
+    "Department": "CIVIL",
+    "Phone": "740077224",
+    "Position": "CIVIL HELPER.",
+    "Position WORD": "CIVIL HELPER."
+  },
+  {
+    "First Name": "LEUPORD EMMENUEL",
+    "Last Name": "MAHINJA",
+    "Employee ID": 6434,
+    "Department": "CIVIL",
+    "Phone": "742532818",
+    "Position": "CIVIL HELPER.",
+    "Position WORD": "CIVIL HELPER."
+  },
+  {
+    "First Name": "GERALD NESTONY",
+    "Last Name": "PETRO",
+    "Employee ID": 6435,
+    "Department": "CIVIL",
+    "Phone": "67079360",
+    "Position": "CIVIL HELPER.",
+    "Position WORD": "CIVIL HELPER."
+  },
+  {
+    "First Name": "BOAZ REUBEN",
+    "Last Name": "ZABRON",
+    "Employee ID": 6436,
+    "Department": "CIVIL",
+    "Phone": "747827917",
+    "Position": "CIVIL HELPER.",
+    "Position WORD": "CIVIL HELPER."
+  },
+  {
+    "First Name": "ELIUD DAMAS",
+    "Last Name": "PAPU",
+    "Employee ID": 4979,
+    "Department": "CIVIL",
+    "Phone": "796425593",
+    "Position": "CIVIL HELPER.",
+    "Position WORD": "CIVIL HELPER."
+  },
+  {
+    "First Name": "AYUBU ALSEN",
+    "Last Name": "KAKWILA",
+    "Employee ID": 6437,
+    "Department": "CIVIL",
+    "Phone": "793486713",
+    "Position": "CIVIL HELPER.",
+    "Position WORD": "CIVIL HELPER."
+  },
+  {
+    "First Name": "IBRAHIM MASAI",
+    "Last Name": "DAUD",
+    "Employee ID": 6224,
+    "Department": "CIVIL",
+    "Phone": null,
+    "Position": "TRACTOR OPERATOR",
+    "Position WORD": "TRACTOR OPERATOR"
+  },
+  {
+    "First Name": "SHAGARO GILBETH",
+    "Last Name": "MINANI",
+    "Employee ID": 6019,
+    "Department": "CIVIL",
+    "Phone": null,
+    "Position": "CIVIL HELPER.",
+    "Position WORD": "CIVIL HELPER."
+  },
+  {
+    "First Name": "ANITA",
+    "Last Name": "CHRISTOPHER",
+    "Employee ID": 63,
+    "Department": "CLENER",
+    "Phone": null,
+    "Position": "CLEANER",
+    "Position WORD": "CLEANER"
+  },
+  {
     "First Name": "ISMAIL JUMA",
     "Last Name": "MASOUD",
     "Employee ID": 219,
@@ -4338,6 +5598,15 @@ export const employees = [
     "Position WORD": "ELECTRICAL TRAINEE"
   },
   {
+    "First Name": "LEOKADIA OSWARD",
+    "Last Name": "NDEMELEJE",
+    "Employee ID": 5610,
+    "Department": "ELECTRICAL",
+    "Phone": "677433374",
+    "Position": "ELECTRICAL TECHNICIAN",
+    "Position WORD": "ELECTRICAL TECHNICIAN"
+  },
+  {
     "First Name": "RICHARD FRANK",
     "Last Name": "ISANGO",
     "Employee ID": 79,
@@ -4401,24 +5670,6 @@ export const employees = [
     "Position WORD": null
   },
   {
-    "First Name": "ARONE",
-    "Last Name": "LAMECK",
-    "Employee ID": 3402,
-    "Department": "FACTORY",
-    "Phone": null,
-    "Position": "HELPER",
-    "Position WORD": null
-  },
-  {
-    "First Name": "OSCAR",
-    "Last Name": "BAHARAYE",
-    "Employee ID": 3410,
-    "Department": "FACTORY",
-    "Phone": null,
-    "Position": "HELPER",
-    "Position WORD": null
-  },
-  {
     "First Name": "KELVIN",
     "Last Name": "FRED",
     "Employee ID": 3411,
@@ -4434,15 +5685,6 @@ export const employees = [
     "Department": "FACTORY",
     "Phone": null,
     "Position": "HELPER",
-    "Position WORD": null
-  },
-  {
-    "First Name": "DECAS",
-    "Last Name": "JIRES",
-    "Employee ID": 3575,
-    "Department": "FACTORY",
-    "Phone": null,
-    "Position": "CARPENTER",
     "Position WORD": null
   },
   {
@@ -4464,15 +5706,6 @@ export const employees = [
     "Position WORD": null
   },
   {
-    "First Name": "SALIM",
-    "Last Name": "KHALID",
-    "Employee ID": 3629,
-    "Department": "FACTORY",
-    "Phone": null,
-    "Position": "HELPER",
-    "Position WORD": null
-  },
-  {
     "First Name": "JAPHET",
     "Last Name": "JEREMIA",
     "Employee ID": 3630,
@@ -4482,27 +5715,9 @@ export const employees = [
     "Position WORD": null
   },
   {
-    "First Name": "ISAYA",
-    "Last Name": "RENATUS",
-    "Employee ID": 3631,
-    "Department": "FACTORY",
-    "Phone": null,
-    "Position": "HELPER",
-    "Position WORD": null
-  },
-  {
     "First Name": "DAUDI",
     "Last Name": "KADUNDUGWA",
     "Employee ID": 3632,
-    "Department": "FACTORY",
-    "Phone": null,
-    "Position": "HELPER",
-    "Position WORD": null
-  },
-  {
-    "First Name": "ASHERI",
-    "Last Name": "PAULO",
-    "Employee ID": 3745,
     "Department": "FACTORY",
     "Phone": null,
     "Position": "HELPER",
@@ -4521,15 +5736,6 @@ export const employees = [
     "First Name": "HOSEA",
     "Last Name": "BENEDICTO",
     "Employee ID": 3747,
-    "Department": "FACTORY",
-    "Phone": null,
-    "Position": "HELPER",
-    "Position WORD": null
-  },
-  {
-    "First Name": "ALEX",
-    "Last Name": "ANTON",
-    "Employee ID": 3748,
     "Department": "FACTORY",
     "Phone": null,
     "Position": "HELPER",
@@ -4560,24 +5766,6 @@ export const employees = [
     "Department": "FACTORY",
     "Phone": null,
     "Position": "MASON",
-    "Position WORD": null
-  },
-  {
-    "First Name": "EVANCE",
-    "Last Name": "NGARAMA",
-    "Employee ID": 3985,
-    "Department": "FACTORY",
-    "Phone": null,
-    "Position": "CARPENTER",
-    "Position WORD": null
-  },
-  {
-    "First Name": "YASIR",
-    "Last Name": "JOEL",
-    "Employee ID": 3986,
-    "Department": "FACTORY",
-    "Phone": null,
-    "Position": "CARPENTER",
     "Position WORD": null
   },
   {
@@ -4635,33 +5823,6 @@ export const employees = [
     "Position WORD": null
   },
   {
-    "First Name": "TALSIS",
-    "Last Name": "MGANDO",
-    "Employee ID": 4664,
-    "Department": "FACTORY",
-    "Phone": null,
-    "Position": "CARPENTER",
-    "Position WORD": null
-  },
-  {
-    "First Name": "SAFARI",
-    "Last Name": "MWIMBA",
-    "Employee ID": 4665,
-    "Department": "FACTORY",
-    "Phone": null,
-    "Position": "HELPER",
-    "Position WORD": null
-  },
-  {
-    "First Name": "JUMA",
-    "Last Name": "RASHID",
-    "Employee ID": 4666,
-    "Department": "FACTORY",
-    "Phone": null,
-    "Position": "HELPER",
-    "Position WORD": null
-  },
-  {
     "First Name": "RABISON",
     "Last Name": "STANSLAUS",
     "Employee ID": 4667,
@@ -4677,24 +5838,6 @@ export const employees = [
     "Department": "FACTORY",
     "Phone": null,
     "Position": "HELPER",
-    "Position WORD": null
-  },
-  {
-    "First Name": "DONALD",
-    "Last Name": "VENACE",
-    "Employee ID": 4669,
-    "Department": "FACTORY",
-    "Phone": null,
-    "Position": "HELPER",
-    "Position WORD": null
-  },
-  {
-    "First Name": "RAPHAEL",
-    "Last Name": "KACHIRA",
-    "Employee ID": 4670,
-    "Department": "FACTORY",
-    "Phone": null,
-    "Position": "CARPENTER",
     "Position WORD": null
   },
   {
@@ -4782,15 +5925,6 @@ export const employees = [
     "First Name": "PETER",
     "Last Name": "JOHN",
     "Employee ID": 5023,
-    "Department": "FACTORY",
-    "Phone": null,
-    "Position": "HELPER",
-    "Position WORD": null
-  },
-  {
-    "First Name": "TULIA",
-    "Last Name": "DAMIANO",
-    "Employee ID": 5025,
     "Department": "FACTORY",
     "Phone": null,
     "Position": "HELPER",
@@ -4887,15 +6021,6 @@ export const employees = [
     "Position WORD": null
   },
   {
-    "First Name": "BARAKA BUTAKALA",
-    "Last Name": "LUYOMBE",
-    "Employee ID": 5123,
-    "Department": "FACTORY",
-    "Phone": null,
-    "Position": "HELPER",
-    "Position WORD": null
-  },
-  {
     "First Name": "SHABANI PAISI",
     "Last Name": "RUHOGO",
     "Employee ID": 5147,
@@ -4984,6 +6109,582 @@ export const employees = [
     "Phone": null,
     "Position": "NIGHT SUPERVISOR",
     "Position WORD": "NIGHT SUPERVISOR"
+  },
+  {
+    "First Name": "ERNEST OSWARD",
+    "Last Name": "NASHON",
+    "Employee ID": 5600,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "JOAKIM ASHEL",
+    "Last Name": "KARALUMYE",
+    "Employee ID": 5601,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "HAMAD MUSSA",
+    "Last Name": "RUHAGIZA",
+    "Employee ID": 5608,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "BATCH PLANT OPERATOR",
+    "Position WORD": "BATCH PLANT OPERATOR"
+  },
+  {
+    "First Name": "EDITHA RICHARD",
+    "Last Name": "ZAKARIA",
+    "Employee ID": 5609,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "CLEANER",
+    "Position WORD": "CLEANER"
+  },
+  {
+    "First Name": "RESIWANI ZABRON",
+    "Last Name": "REUBENI",
+    "Employee ID": 5611,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "CLEANER",
+    "Position WORD": "CLEANER"
+  },
+  {
+    "First Name": "ASHA ABDULY",
+    "Last Name": "JUMA",
+    "Employee ID": 5613,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "STORE DATA CLERK",
+    "Position WORD": "STORE DATA CLERK"
+  },
+  {
+    "First Name": "NASOLO EDMUS",
+    "Last Name": "NTAGATE",
+    "Employee ID": 5622,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "TRANSIT MIXER OPERATOR",
+    "Position WORD": "TRANSIT MIXER OPERATOR"
+  },
+  {
+    "First Name": "TALSISS",
+    "Last Name": "MGADO",
+    "Employee ID": 4664,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "CAPENTER",
+    "Position WORD": "CAPENTER"
+  },
+  {
+    "First Name": "YASIR",
+    "Last Name": "JOEL",
+    "Employee ID": 3986,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "CAPENTER",
+    "Position WORD": "CAPENTER"
+  },
+  {
+    "First Name": "EVANCE",
+    "Last Name": "NGARAMA",
+    "Employee ID": 3985,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "CAPENTER",
+    "Position WORD": "CAPENTER"
+  },
+  {
+    "First Name": "SHARIFU",
+    "Last Name": "ROBERT",
+    "Employee ID": 5432,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "RAPAHAEL",
+    "Last Name": "KACHIRA",
+    "Employee ID": 4670,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "CAPENTER",
+    "Position WORD": "CAPENTER"
+  },
+  {
+    "First Name": "JUMA",
+    "Last Name": "RASHID",
+    "Employee ID": 4666,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "ASHERI",
+    "Last Name": "PAUL",
+    "Employee ID": 3745,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "JERSON",
+    "Last Name": "ELIAS",
+    "Employee ID": 5599,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "EMMANUELY",
+    "Last Name": "DAMIANO",
+    "Employee ID": 5505,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "JOSEPHU",
+    "Last Name": "NUHU",
+    "Employee ID": 5630,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "DEKAS",
+    "Last Name": "JIRES",
+    "Employee ID": 3575,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "CAPENTER",
+    "Position WORD": "CAPENTER"
+  },
+  {
+    "First Name": "SALIM",
+    "Last Name": "KHALID",
+    "Employee ID": 3629,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "TULIA",
+    "Last Name": "DAMIANO",
+    "Employee ID": 5025,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "ATHANAS",
+    "Last Name": "GABRIEL",
+    "Employee ID": 5376,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "FOREMAN",
+    "Position WORD": "FOREMAN"
+  },
+  {
+    "First Name": "SAURI",
+    "Last Name": "JOSHUA",
+    "Employee ID": 5577,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "PETER",
+    "Last Name": "RUDOMYWA",
+    "Employee ID": 4543,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "ISAYA",
+    "Last Name": "RENATUS",
+    "Employee ID": 3631,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "BARAKA",
+    "Last Name": "BUTAKARA",
+    "Employee ID": 5123,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "DONARD",
+    "Last Name": "VENACE",
+    "Employee ID": 4669,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "ALEX",
+    "Last Name": "ANTHON",
+    "Employee ID": 3748,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "FADHILI",
+    "Last Name": "APPORINAL",
+    "Employee ID": 5338,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "SAFARI",
+    "Last Name": "MWIMBA",
+    "Employee ID": 4665,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "ISAKA",
+    "Last Name": "TANGI",
+    "Employee ID": 3072,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "RIGOBERT",
+    "Last Name": "STARPHOD",
+    "Employee ID": 5596,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "WILIBROD",
+    "Last Name": "SELEMAN",
+    "Employee ID": 1348,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "PETER",
+    "Last Name": "TATI",
+    "Employee ID": 5595,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "WELDER",
+    "Position WORD": "WELDER"
+  },
+  {
+    "First Name": "OSCAR",
+    "Last Name": "BAHARAYE",
+    "Employee ID": 3410,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "MTR OPERATOR",
+    "Position WORD": "MTR OPERATOR"
+  },
+  {
+    "First Name": "UREDI",
+    "Last Name": "DAMIANO",
+    "Employee ID": 5883,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "AYUBU",
+    "Last Name": "KAHAVUYE",
+    "Employee ID": 5891,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "JACKSON",
+    "Last Name": "MALIATABU",
+    "Employee ID": 5878,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "CHARLES",
+    "Last Name": "JERAD",
+    "Employee ID": 5715,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "BARKA",
+    "Last Name": "FEDRICK",
+    "Employee ID": 5876,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "SIMONI",
+    "Last Name": "MARISELO",
+    "Employee ID": 5888,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "GIVEN",
+    "Last Name": "MWALADIRE",
+    "Employee ID": 5887,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "AUBERT",
+    "Last Name": "KACHUMITHA",
+    "Employee ID": 5881,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "SELEMANI",
+    "Last Name": "KAHOMA",
+    "Employee ID": 5879,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "AMRI",
+    "Last Name": "PASKALI",
+    "Employee ID": 5874,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "BEST",
+    "Last Name": "ELISHA",
+    "Employee ID": 5890,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "AUGOSTINO",
+    "Last Name": "PASKALI",
+    "Employee ID": 5886,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "MASHAKA",
+    "Last Name": "MAKAMBI",
+    "Employee ID": 5851,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "CAPENTER",
+    "Position WORD": "CAPENTER"
+  },
+  {
+    "First Name": "OMARY",
+    "Last Name": "ALLY",
+    "Employee ID": 5849,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "MASHINERY SUPERVISOR",
+    "Position WORD": "MASHINERY SUPERVISOR"
+  },
+  {
+    "First Name": "NUHU",
+    "Last Name": "LESPIS",
+    "Employee ID": 5845,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "ALEXANDER",
+    "Last Name": "NDONDEYE",
+    "Employee ID": 5782,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HR OFFICER",
+    "Position WORD": "HR OFFICER"
+  },
+  {
+    "First Name": "SAID",
+    "Last Name": "MGARULA",
+    "Employee ID": 5885,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "DAVID",
+    "Last Name": "AMOS",
+    "Employee ID": 5914,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "STORE SUPERVISOUR",
+    "Position WORD": "STORE SUPERVISOUR"
+  },
+  {
+    "First Name": "JACKLINE",
+    "Last Name": "JOSEPH",
+    "Employee ID": 5915,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "STORE KEEPING ASSITANT",
+    "Position WORD": "STORE KEEPING ASSITANT"
+  },
+  {
+    "First Name": "JUMA",
+    "Last Name": "PAULO",
+    "Employee ID": 6054,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "AYUBU",
+    "Last Name": "SAMSON",
+    "Employee ID": 6051,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "SAMWELI",
+    "Last Name": "LAURENCE",
+    "Employee ID": 6055,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "AMRI",
+    "Last Name": "KAJORO",
+    "Employee ID": 6053,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "ANORD",
+    "Last Name": "MUTATINA",
+    "Employee ID": 3888,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "MAYONI",
+    "Last Name": "ISAYA",
+    "Employee ID": 6050,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "IMANI",
+    "Last Name": "LAURENCE",
+    "Employee ID": 6052,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "MOHAMED",
+    "Last Name": "KILLO",
+    "Employee ID": 5530,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "BATCH PLANT OPERATOR",
+    "Position WORD": "BATCH PLANT OPERATOR"
+  },
+  {
+    "First Name": "ARONE",
+    "Last Name": "LAMECK",
+    "Employee ID": 3402,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "ELECTRICIAN",
+    "Position WORD": "ELECTRICIAN"
+  },
+  {
+    "First Name": "TEGEMEO",
+    "Last Name": "VENANCE",
+    "Employee ID": 5875,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "NURU",
+    "Last Name": "ISRAEL",
+    "Employee ID": 5793,
+    "Department": "FACTORY",
+    "Phone": null,
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
   },
   {
     "First Name": "MASHIMBA ENOSI",
@@ -5153,8 +6854,8 @@ export const employees = [
     "Employee ID": 655,
     "Department": "IRRIGATION",
     "Phone": "629993539",
-    "Position": "GRP HELPER",
-    "Position WORD": "GRP HELPER"
+    "Position": "STORE KEEPER",
+    "Position WORD": "STORE KEEPER"
   },
   {
     "First Name": "SYLIVANUS",
@@ -6093,15 +7794,6 @@ export const employees = [
     "Position WORD": "GRP HELPER"
   },
   {
-    "First Name": "HOSEA",
-    "Last Name": "BONIFACE",
-    "Employee ID": 3851,
-    "Department": "IRRIGATION",
-    "Phone": "74454413",
-    "Position": "GRP HELPER",
-    "Position WORD": "GRP HELPER"
-  },
-  {
     "First Name": "SEBASTIAN",
     "Last Name": "SEVERINO",
     "Employee ID": 3852,
@@ -6332,15 +8024,6 @@ export const employees = [
     "Employee ID": 4422,
     "Department": "IRRIGATION",
     "Phone": "7602268342",
-    "Position": "irrigation helper",
-    "Position WORD": null
-  },
-  {
-    "First Name": "ADAM AMRI",
-    "Last Name": null,
-    "Employee ID": 4426,
-    "Department": "IRRIGATION",
-    "Phone": "616025101",
     "Position": "irrigation helper",
     "Position WORD": null
   },
@@ -7173,15 +8856,6 @@ export const employees = [
     "Position WORD": null
   },
   {
-    "First Name": "ATHANAS",
-    "Last Name": "GAGREL",
-    "Employee ID": 5376,
-    "Department": "IRRIGATION",
-    "Phone": "73284034",
-    "Position": "TECHNICAL HAND",
-    "Position WORD": null
-  },
-  {
     "First Name": "KENEDY",
     "Last Name": "RESPICH",
     "Employee ID": 5377,
@@ -7296,15 +8970,6 @@ export const employees = [
     "Department": "IRRIGATION",
     "Phone": "767872487",
     "Position": "IRRIGATOR",
-    "Position WORD": null
-  },
-  {
-    "First Name": "JOSEPH",
-    "Last Name": "PATRIC",
-    "Employee ID": 5383,
-    "Department": "IRRIGATION",
-    "Phone": "619091643",
-    "Position": "TECHNICAL HAND",
     "Position WORD": null
   },
   {
@@ -7695,15 +9360,6 @@ export const employees = [
     "Position WORD": "IRRIGATION HELPER"
   },
   {
-    "First Name": "YOHANA",
-    "Last Name": "NDIYUWUNDI",
-    "Employee ID": 5309,
-    "Department": "IRRIGATION",
-    "Phone": "698972251",
-    "Position": "IRRIGATION HELPER",
-    "Position WORD": "IRRIGATION HELPER"
-  },
-  {
     "First Name": "AMINA JASTIN",
     "Last Name": "NGARAMA",
     "Employee ID": 5443,
@@ -7718,15 +9374,6 @@ export const employees = [
     "Employee ID": 5449,
     "Department": "IRRIGATION",
     "Phone": "624021984",
-    "Position": "IRRIGATION HELPER",
-    "Position WORD": "IRRIGATION HELPER"
-  },
-  {
-    "First Name": "ZABRON FREDRICK",
-    "Last Name": "CHICHARO",
-    "Employee ID": 5461,
-    "Department": "IRRIGATION",
-    "Phone": "742670214",
     "Position": "IRRIGATION HELPER",
     "Position WORD": "IRRIGATION HELPER"
   },
@@ -8001,6 +9648,1005 @@ export const employees = [
     "Position WORD": "IRRIGATION HELPER"
   },
   {
+    "First Name": "Michael",
+    "Last Name": "Emmanuel",
+    "Employee ID": 1562,
+    "Department": "IRRIGATION",
+    "Phone": "793760070",
+    "Position": "EXCAVATOR OPERATOR",
+    "Position WORD": "EXCAVATOR OPERATOR"
+  },
+  {
+    "First Name": "Yasiri",
+    "Last Name": "Arafat",
+    "Employee ID": 3320,
+    "Department": "IRRIGATION",
+    "Phone": "764223172",
+    "Position": "EXCAVATOR OPERATOR",
+    "Position WORD": "EXCAVATOR OPERATOR"
+  },
+  {
+    "First Name": "Charles",
+    "Last Name": "sobu",
+    "Employee ID": 5563,
+    "Department": "IRRIGATION",
+    "Phone": "786493123",
+    "Position": "EXCAVATOR OPERATOR",
+    "Position WORD": "EXCAVATOR OPERATOR"
+  },
+  {
+    "First Name": "LUCAS",
+    "Last Name": "BONIFACE",
+    "Employee ID": 4692,
+    "Department": "IRRIGATION",
+    "Phone": "756569615",
+    "Position": "SUPERVISOR",
+    "Position WORD": "SUPERVISOR"
+  },
+  {
+    "First Name": "JOELY NASHON",
+    "Last Name": "SUGUTA",
+    "Employee ID": 5585,
+    "Department": "IRRIGATION",
+    "Phone": "613130550",
+    "Position": "MACHINE SUPERVISOR",
+    "Position WORD": "machine supervisor"
+  },
+  {
+    "First Name": "GERALDINA HIGOMBEYE",
+    "Last Name": "SONGA",
+    "Employee ID": 5617,
+    "Department": "IRRIGATION",
+    "Phone": "755488690",
+    "Position": "GT",
+    "Position WORD": "GT"
+  },
+  {
+    "First Name": "IFUJENIA INNOCENT",
+    "Last Name": "NKAIMKILWA",
+    "Employee ID": 5614,
+    "Department": "IRRIGATION",
+    "Phone": "626581280",
+    "Position": "IRR. GRADUATE ENGINEER",
+    "Position WORD": "Irr. Graduate Engineer"
+  },
+  {
+    "First Name": "ATUKUZWE",
+    "Last Name": "KAMANDA",
+    "Employee ID": 5779,
+    "Department": "IRRIGATION",
+    "Phone": "796941399",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "SADOCK",
+    "Last Name": "ALON",
+    "Employee ID": 5780,
+    "Department": "IRRIGATION",
+    "Phone": "659140126",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "HASHIM",
+    "Last Name": "HAMADI",
+    "Employee ID": 5073,
+    "Department": "IRRIGATION",
+    "Phone": "750787013",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "LAURENT",
+    "Last Name": "MEKSEDECK",
+    "Employee ID": 4901,
+    "Department": "IRRIGATION",
+    "Phone": "777956726",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "KASASE",
+    "Last Name": "BUJEJE",
+    "Employee ID": 5774,
+    "Department": "IRRIGATION",
+    "Phone": "752633754",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "KULWA",
+    "Last Name": "HERMAN",
+    "Employee ID": 4308,
+    "Department": "IRRIGATION",
+    "Phone": "686342753",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "SALIMA",
+    "Last Name": "BAAZI",
+    "Employee ID": 5154,
+    "Department": "IRRIGATION",
+    "Phone": "798793650",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "FARIDA",
+    "Last Name": "TESHA",
+    "Employee ID": 3596,
+    "Department": "IRRIGATION",
+    "Phone": "627174431",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "DANIEL",
+    "Last Name": "KANANI",
+    "Employee ID": 5778,
+    "Department": "IRRIGATION",
+    "Phone": "620870336",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "SELFAD",
+    "Last Name": "LUCAS",
+    "Employee ID": 5783,
+    "Department": "IRRIGATION",
+    "Phone": "798099757",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "AHAZI",
+    "Last Name": "YONA",
+    "Employee ID": 5784,
+    "Department": "IRRIGATION",
+    "Phone": "7999642996",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "ALFAN",
+    "Last Name": "HAMIS",
+    "Employee ID": 3540,
+    "Department": "IRRIGATION",
+    "Phone": "749385382",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "MBOWE",
+    "Last Name": "ANTONY",
+    "Employee ID": 5785,
+    "Department": "IRRIGATION",
+    "Phone": "753575622",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "KADOLEX",
+    "Last Name": "MAARIFA",
+    "Employee ID": 2600,
+    "Department": "IRRIGATION",
+    "Phone": "610730679",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "ANDREA",
+    "Last Name": "JACOB",
+    "Employee ID": 2630,
+    "Department": "IRRIGATION",
+    "Phone": "796946111",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "EVELINA",
+    "Last Name": "LAZARO",
+    "Employee ID": 5781,
+    "Department": "IRRIGATION",
+    "Phone": "769512432",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "ADAM",
+    "Last Name": "AMRI",
+    "Employee ID": 4426,
+    "Department": "IRRIGATION",
+    "Phone": "616025101",
+    "Position": "EXCAVATOR OPERATOR",
+    "Position WORD": "EXCAVATOR OPERATOR"
+  },
+  {
+    "First Name": "ASHURA",
+    "Last Name": "OTTO",
+    "Employee ID": 970,
+    "Department": "IRRIGATION",
+    "Phone": "768282190",
+    "Position": "EXCAVATOR OPERATOR",
+    "Position WORD": "EXCAVATOR OPERATOR"
+  },
+  {
+    "First Name": "ZUWENA",
+    "Last Name": "NAGAGWA",
+    "Employee ID": 5001,
+    "Department": "IRRIGATION",
+    "Phone": "682646848",
+    "Position": "EXCAVATOR OPERATOR",
+    "Position WORD": "EXCAVATOR OPERATOR"
+  },
+  {
+    "First Name": "ABDUL",
+    "Last Name": "NUHU",
+    "Employee ID": 3485,
+    "Department": "IRRIGATION",
+    "Phone": "757870026",
+    "Position": "EXCAVATOR OPERATOR",
+    "Position WORD": "EXCAVATOR OPERATOR"
+  },
+  {
+    "First Name": "YOHANA",
+    "Last Name": "NDAYUHUNDI",
+    "Employee ID": 5309,
+    "Department": "IRRIGATION",
+    "Phone": "786759850",
+    "Position": "EXCAVATOR OPERATOR",
+    "Position WORD": "EXCAVATOR OPERATOR"
+  },
+  {
+    "First Name": "BATHROMEO",
+    "Last Name": "ZACHARIA",
+    "Employee ID": 6034,
+    "Department": "IRRIGATION",
+    "Phone": "766055445",
+    "Position": "EXCAVATOR OPERATOR",
+    "Position WORD": "EXCAVATOR OPERATOR"
+  },
+  {
+    "First Name": "JOHNSON",
+    "Last Name": "REVOCATUS",
+    "Employee ID": 6041,
+    "Department": "IRRIGATION",
+    "Phone": "788283951",
+    "Position": "EXCAVATOR OPERATOR",
+    "Position WORD": "EXCAVATOR OPERATOR"
+  },
+  {
+    "First Name": "MAJALIWA",
+    "Last Name": "JOSEPH",
+    "Employee ID": 6039,
+    "Department": "IRRIGATION",
+    "Phone": "686036668",
+    "Position": "EXCAVATOR OPERATOR",
+    "Position WORD": "EXCAVATOR OPERATOR"
+  },
+  {
+    "First Name": "AMON",
+    "Last Name": "ASIMWE",
+    "Employee ID": 6043,
+    "Department": "IRRIGATION",
+    "Phone": "746503298",
+    "Position": "EXCAVATOR OPERATOR",
+    "Position WORD": "EXCAVATOR OPERATOR"
+  },
+  {
+    "First Name": "MASALA",
+    "Last Name": "WILLIAM",
+    "Employee ID": 6040,
+    "Department": "IRRIGATION",
+    "Phone": "618804414",
+    "Position": "EXCAVATOR OPERATOR",
+    "Position WORD": "EXCAVATOR OPERATOR"
+  },
+  {
+    "First Name": "TAMIMU",
+    "Last Name": "JAPHARY",
+    "Employee ID": 6038,
+    "Department": "IRRIGATION",
+    "Phone": "745138856",
+    "Position": "EXCAVATOR OPERATOR",
+    "Position WORD": "EXCAVATOR OPERATOR"
+  },
+  {
+    "First Name": "ABUBAKARI",
+    "Last Name": "SHABANI",
+    "Employee ID": 6047,
+    "Department": "IRRIGATION",
+    "Phone": "685802506",
+    "Position": "EXCAVATOR OPERATOR",
+    "Position WORD": "EXCAVATOR OPERATOR"
+  },
+  {
+    "First Name": "STEPHANO",
+    "Last Name": "SARAMBA",
+    "Employee ID": 6028,
+    "Department": "IRRIGATION",
+    "Phone": "650502847",
+    "Position": "EXCAVATOR OPERATOR",
+    "Position WORD": "EXCAVATOR OPERATOR"
+  },
+  {
+    "First Name": "LUCKY",
+    "Last Name": "GIFT",
+    "Employee ID": 6036,
+    "Department": "IRRIGATION",
+    "Phone": "764746347",
+    "Position": "EXCAVATOR OPERATOR",
+    "Position WORD": "EXCAVATOR OPERATOR"
+  },
+  {
+    "First Name": "VEDASTO",
+    "Last Name": "CLEMENCE",
+    "Employee ID": 6035,
+    "Department": "IRRIGATION",
+    "Phone": "688330980",
+    "Position": "EXCAVATOR OPERATOR",
+    "Position WORD": "EXCAVATOR OPERATOR"
+  },
+  {
+    "First Name": "JOSEPH",
+    "Last Name": "PATRICK",
+    "Employee ID": 5383,
+    "Department": "IRRIGATION",
+    "Phone": "635763852",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "FEDRICK",
+    "Last Name": "TABIA",
+    "Employee ID": 5898,
+    "Department": "IRRIGATION",
+    "Phone": "623364338",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "ELIYA",
+    "Last Name": "JUSTINE",
+    "Employee ID": 3693,
+    "Department": "IRRIGATION",
+    "Phone": "614688475",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "SIKUZANI",
+    "Last Name": "JOSEPH",
+    "Employee ID": 5929,
+    "Department": "IRRIGATION",
+    "Phone": "635304347",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "MUSSA",
+    "Last Name": "FILBETH",
+    "Employee ID": 3497,
+    "Department": "IRRIGATION",
+    "Phone": "750647962",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "DAMASI",
+    "Last Name": "FENIASI",
+    "Employee ID": 5814,
+    "Department": "IRRIGATION",
+    "Phone": "699317183",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "EDSON GIDION",
+    "Last Name": "TOYI",
+    "Employee ID": 5807,
+    "Department": "IRRIGATION",
+    "Phone": "776478992",
+    "Position": "IRR. CONTROLLER",
+    "Position WORD": "IRR. CONTROLLER"
+  },
+  {
+    "First Name": "SANTOS",
+    "Last Name": "STEPHANO",
+    "Employee ID": 6135,
+    "Department": "IRRIGATION",
+    "Phone": "752816182",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "ABDALAH",
+    "Last Name": "HUSSEIN",
+    "Employee ID": 6137,
+    "Department": "IRRIGATION",
+    "Phone": "754354132",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "LIGHTNESS",
+    "Last Name": "PASCHAL",
+    "Employee ID": 6136,
+    "Department": "IRRIGATION",
+    "Phone": "764560511",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "KASINDI",
+    "Last Name": "SAMSON",
+    "Employee ID": 5858,
+    "Department": "IRRIGATION",
+    "Phone": "756364183",
+    "Position": "IRRIGATION CONCTROLLER",
+    "Position WORD": "IRRIGATION CONCTROLLER"
+  },
+  {
+    "First Name": "FELISTER",
+    "Last Name": "WASIWASI",
+    "Employee ID": 6138,
+    "Department": "IRRIGATION",
+    "Phone": "773309553",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "ISHIMAEL",
+    "Last Name": "OBADIA",
+    "Employee ID": 5909,
+    "Department": "IRRIGATION",
+    "Phone": "628425286",
+    "Position": "IRRIGATION CONCTROLLER",
+    "Position WORD": "IRRIGATION CONCTROLLER"
+  },
+  {
+    "First Name": "ANETH",
+    "Last Name": "PETRO",
+    "Employee ID": 6148,
+    "Department": "IRRIGATION",
+    "Phone": "791934799",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "ESTER",
+    "Last Name": "MALIKIORI",
+    "Employee ID": 6147,
+    "Department": "IRRIGATION",
+    "Phone": "791824440",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "YUDITH",
+    "Last Name": "LEOPORD",
+    "Employee ID": 5959,
+    "Department": "IRRIGATION",
+    "Phone": "742228361",
+    "Position": "IRRIGATION CONCTROLLER",
+    "Position WORD": "IRRIGATION CONCTROLLER"
+  },
+  {
+    "First Name": "ARISEN",
+    "Last Name": "BAZI",
+    "Employee ID": 6141,
+    "Department": "IRRIGATION",
+    "Phone": "711280769",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "SHEDRACK",
+    "Last Name": "BAZI",
+    "Employee ID": 6166,
+    "Department": "IRRIGATION",
+    "Phone": "744182420",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "FALES",
+    "Last Name": "BAZI",
+    "Employee ID": 6142,
+    "Department": "IRRIGATION",
+    "Phone": "775803318",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "ELIA",
+    "Last Name": "BAFATA",
+    "Employee ID": 6164,
+    "Department": "IRRIGATION",
+    "Phone": "743307154",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "ZIDANE",
+    "Last Name": "ABEL",
+    "Employee ID": 6151,
+    "Department": "IRRIGATION",
+    "Phone": "787049373",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "BICHUERO",
+    "Last Name": "CHIZA",
+    "Employee ID": 6140,
+    "Department": "IRRIGATION",
+    "Phone": "690244424",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "KAZAROHO",
+    "Last Name": "MUSSA",
+    "Employee ID": 6153,
+    "Department": "IRRIGATION",
+    "Phone": "688727764",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "ABAS",
+    "Last Name": "TATIZO",
+    "Employee ID": 6152,
+    "Department": "IRRIGATION",
+    "Phone": "753439171",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "MALENI",
+    "Last Name": "COSMAS",
+    "Employee ID": 6163,
+    "Department": "IRRIGATION",
+    "Phone": "687099305",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "JAMES",
+    "Last Name": "LAZARO",
+    "Employee ID": 6157,
+    "Department": "IRRIGATION",
+    "Phone": "663966665",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "LAMPARD",
+    "Last Name": "MASHITUKIO",
+    "Employee ID": 6143,
+    "Department": "IRRIGATION",
+    "Phone": "792722269",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "GABRIEL",
+    "Last Name": "ODASI",
+    "Employee ID": 6144,
+    "Department": "IRRIGATION",
+    "Phone": "618674064",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "SIGELA",
+    "Last Name": "JOHN",
+    "Employee ID": 6145,
+    "Department": "IRRIGATION",
+    "Phone": "799954783",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "ODASI",
+    "Last Name": "PAULO",
+    "Employee ID": 6165,
+    "Department": "IRRIGATION",
+    "Phone": "783401349",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "SYLIVESTER",
+    "Last Name": "RICHARD",
+    "Employee ID": 6146,
+    "Department": "IRRIGATION",
+    "Phone": "758147416",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "AMANA",
+    "Last Name": "EDWIN",
+    "Employee ID": 6158,
+    "Department": "IRRIGATION",
+    "Phone": "755954673",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "OBADIA",
+    "Last Name": "BALUSHE",
+    "Employee ID": 6167,
+    "Department": "IRRIGATION",
+    "Phone": "768522076",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "ERNEST",
+    "Last Name": "SYLIVANUS",
+    "Employee ID": 5899,
+    "Department": "IRRIGATION",
+    "Phone": "610821758",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "PASCHAL",
+    "Last Name": "BONIFACE",
+    "Employee ID": 6156,
+    "Department": "IRRIGATION",
+    "Phone": "627083453",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "JEROSI",
+    "Last Name": "MLIJA",
+    "Employee ID": 6155,
+    "Department": "IRRIGATION",
+    "Phone": "793589098",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "FRANK",
+    "Last Name": "MANYIKA",
+    "Employee ID": 6149,
+    "Department": "IRRIGATION",
+    "Phone": "766543950",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "MAPATO",
+    "Last Name": "MAKULILO",
+    "Employee ID": 6162,
+    "Department": "IRRIGATION",
+    "Phone": "757688171",
+    "Position": "IRRIGATION HELPER",
+    "Position WORD": "IRRIGATION HELPER"
+  },
+  {
+    "First Name": "ADAM LAZARO",
+    "Last Name": "AYUBU",
+    "Employee ID": 6270,
+    "Department": "IRRIGATION",
+    "Phone": null,
+    "Position": "TECHNICAL HAND",
+    "Position WORD": "TECHNICAL HAND"
+  },
+  {
+    "First Name": "FRANCE KAILEMBO",
+    "Last Name": "GODFREY",
+    "Employee ID": 6268,
+    "Department": "IRRIGATION",
+    "Phone": null,
+    "Position": "TECHNICAL HAND",
+    "Position WORD": "TECHNICAL HAND"
+  },
+  {
+    "First Name": "BEATRICE ELIAS",
+    "Last Name": "NTIBANYUGWA",
+    "Employee ID": 6272,
+    "Department": "IRRIGATION",
+    "Phone": null,
+    "Position": "TECHNICAL HAND",
+    "Position WORD": "TECHNICAL HAND"
+  },
+  {
+    "First Name": "VERONICA ROBERT",
+    "Last Name": "BARAGOMA",
+    "Employee ID": 6271,
+    "Department": "IRRIGATION",
+    "Phone": null,
+    "Position": "TECHNICAL HAND",
+    "Position WORD": "TECHNICAL HAND"
+  },
+  {
+    "First Name": "MESHACK KAMANI",
+    "Last Name": "MARONGO",
+    "Employee ID": 6269,
+    "Department": "IRRIGATION",
+    "Phone": null,
+    "Position": "TECHNICAL HAND",
+    "Position WORD": "TECHNICAL HAND"
+  },
+  {
+    "First Name": "MONICA WILIJESI",
+    "Last Name": "NDABAGILIYE",
+    "Employee ID": 6273,
+    "Department": "IRRIGATION",
+    "Phone": null,
+    "Position": "TECHNICAL HAND",
+    "Position WORD": "TECHNICAL HAND"
+  },
+  {
+    "First Name": "SAULI MARKO",
+    "Last Name": "KIMONDO",
+    "Employee ID": 6266,
+    "Department": "IRRIGATION",
+    "Phone": null,
+    "Position": "TECHNICAL HAND",
+    "Position WORD": "TECHNICAL HAND"
+  },
+  {
+    "First Name": "AMOSI JAMES",
+    "Last Name": "MSIGALA",
+    "Employee ID": 6267,
+    "Department": "IRRIGATION",
+    "Phone": null,
+    "Position": "TECHNICAL HAND",
+    "Position WORD": "TECHNICAL HAND"
+  },
+  {
+    "First Name": "SAMSON JOHN",
+    "Last Name": "NKYAMBA",
+    "Employee ID": 6265,
+    "Department": "IRRIGATION",
+    "Phone": null,
+    "Position": "TECHNICAL HAND",
+    "Position WORD": "TECHNICAL HAND"
+  },
+  {
+    "First Name": "ESTHER BARNABAS",
+    "Last Name": "SIMON",
+    "Employee ID": 6264,
+    "Department": "IRRIGATION",
+    "Phone": null,
+    "Position": "TECHNICAL HAND",
+    "Position WORD": "TECHNICAL HAND"
+  },
+  {
+    "First Name": "FURAHA",
+    "Last Name": "CHARLES",
+    "Employee ID": 6361,
+    "Department": "IRRIGATION",
+    "Phone": "754860577",
+    "Position": "GRP HELPER",
+    "Position WORD": "GRP HELPER"
+  },
+  {
+    "First Name": "SAMWEL",
+    "Last Name": "JOSEPHAT",
+    "Employee ID": 6365,
+    "Department": "IRRIGATION",
+    "Phone": "764114414",
+    "Position": "GRP HELPER",
+    "Position WORD": "GRP HELPER"
+  },
+  {
+    "First Name": "BOAZ",
+    "Last Name": "RAPHAEL",
+    "Employee ID": 6343,
+    "Department": "IRRIGATION",
+    "Phone": "758923422",
+    "Position": "GRP HELPER",
+    "Position WORD": "GRP HELPER"
+  },
+  {
+    "First Name": "DAVID",
+    "Last Name": "ABDALAH",
+    "Employee ID": 6354,
+    "Department": "IRRIGATION",
+    "Phone": "742835378",
+    "Position": "GRP HELPER",
+    "Position WORD": "GRP HELPER"
+  },
+  {
+    "First Name": "ERICK",
+    "Last Name": "JOSEPH",
+    "Employee ID": 6366,
+    "Department": "IRRIGATION",
+    "Phone": "750701907",
+    "Position": "GRP HELPER",
+    "Position WORD": "GRP HELPER"
+  },
+  {
+    "First Name": "IBRAHIM ASHREY",
+    "Last Name": "GREGORY",
+    "Employee ID": 6353,
+    "Department": "IRRIGATION",
+    "Phone": "763035244",
+    "Position": "GRP HELPER",
+    "Position WORD": "GRP HELPER"
+  },
+  {
+    "First Name": "CLINTON WILBARD",
+    "Last Name": "KIMONDO",
+    "Employee ID": 6360,
+    "Department": "IRRIGATION",
+    "Phone": "671592458",
+    "Position": "GRP HELPER",
+    "Position WORD": "GRP HELPER"
+  },
+  {
+    "First Name": "SELEMAN ABEL",
+    "Last Name": "GWANKO",
+    "Employee ID": 6344,
+    "Department": "IRRIGATION",
+    "Phone": "677867014",
+    "Position": "GRP HELPER",
+    "Position WORD": "GRP HELPER"
+  },
+  {
+    "First Name": "VITUS STEVEN",
+    "Last Name": "KAPOLI",
+    "Employee ID": 6362,
+    "Department": "IRRIGATION",
+    "Phone": "799385663",
+    "Position": "GRP HELPER",
+    "Position WORD": "GRP HELPER"
+  },
+  {
+    "First Name": "ALFRED NTAWAMENYA",
+    "Last Name": "NTANGIGOMBA",
+    "Employee ID": 6356,
+    "Department": "IRRIGATION",
+    "Phone": "748407446",
+    "Position": "GRP HELPER",
+    "Position WORD": "GRP HELPER"
+  },
+  {
+    "First Name": "SHEMAYA KASIGA",
+    "Last Name": "SHAMBA",
+    "Employee ID": 6359,
+    "Department": "IRRIGATION",
+    "Phone": "653142707",
+    "Position": "GRP HELPER",
+    "Position WORD": "GRP HELPER"
+  },
+  {
+    "First Name": "JACKSON KAGINA",
+    "Last Name": "NGURUBE",
+    "Employee ID": 6350,
+    "Department": "IRRIGATION",
+    "Phone": "620304312",
+    "Position": "GRP HELPER",
+    "Position WORD": "GRP HELPER"
+  },
+  {
+    "First Name": "ADAM KASAKWA",
+    "Last Name": "AMOSI",
+    "Employee ID": 6367,
+    "Department": "IRRIGATION",
+    "Phone": "616354624",
+    "Position": "CONSTR FOREMAN",
+    "Position WORD": "CONSTR FOREMAN"
+  },
+  {
+    "First Name": "HIDARI JUMA",
+    "Last Name": "BWANDONDEYE",
+    "Employee ID": 6363,
+    "Department": "IRRIGATION",
+    "Phone": "635555876",
+    "Position": "GRP HELPER",
+    "Position WORD": "GRP HELPER"
+  },
+  {
+    "First Name": "NOAH ALFRED",
+    "Last Name": "NKONA",
+    "Employee ID": 2650,
+    "Department": "IRRIGATION",
+    "Phone": "699451751",
+    "Position": "EXCAVATOR OPERATOR",
+    "Position WORD": "EXCAVATOR OPERATOR"
+  },
+  {
+    "First Name": "ABASI HASSAN",
+    "Last Name": "HUSSEIN",
+    "Employee ID": 6338,
+    "Department": "IRRIGATION",
+    "Phone": "760731953",
+    "Position": "EXCAVATOR OPERATOR",
+    "Position WORD": "EXCAVATOR OPERATOR"
+  },
+  {
+    "First Name": "ALEX CHARLES",
+    "Last Name": "EMMANUEL",
+    "Employee ID": 6336,
+    "Department": "IRRIGATION",
+    "Phone": "756491879",
+    "Position": "EXCAVATOR OPERATOR",
+    "Position WORD": "EXCAVATOR OPERATOR"
+  },
+  {
+    "First Name": "SAMWEL ZEAS",
+    "Last Name": "KAROL",
+    "Employee ID": 6337,
+    "Department": "IRRIGATION",
+    "Phone": "768497167",
+    "Position": "EXCAVATOR OPERATOR",
+    "Position WORD": "EXCAVATOR OPERATOR"
+  },
+  {
+    "First Name": "SYLIVESTER FREDSON",
+    "Last Name": "MAKALA",
+    "Employee ID": 5897,
+    "Department": "IRRIGATION",
+    "Phone": "620274938",
+    "Position": "EXCAVATOR OPERATOR",
+    "Position WORD": "EXCAVATOR OPERATOR"
+  },
+  {
+    "First Name": "MAHMOOD SAIDI",
+    "Last Name": "RASHID",
+    "Employee ID": 6339,
+    "Department": "IRRIGATION",
+    "Phone": "625940004",
+    "Position": "EXCAVATOR OPERATOR",
+    "Position WORD": "EXCAVATOR OPERATOR"
+  },
+  {
+    "First Name": "SIMON JABUNU",
+    "Last Name": "DAUD",
+    "Employee ID": 6340,
+    "Department": "IRRIGATION",
+    "Phone": "791947331",
+    "Position": "EXCAVATOR OPERATOR",
+    "Position WORD": "EXCAVATOR OPERATOR"
+  },
+  {
+    "First Name": "PIUS LEONARD",
+    "Last Name": "PIUS",
+    "Employee ID": 6341,
+    "Department": "IRRIGATION",
+    "Phone": "689836303",
+    "Position": "EXCAVATOR OPERATOR",
+    "Position WORD": "EXCAVATOR OPERATOR"
+  },
+  {
+    "First Name": "HOSEA",
+    "Last Name": "BONIFACE",
+    "Employee ID": 3851,
+    "Department": "IRRIGATION",
+    "Phone": "744654413",
+    "Position": "GRP HELPER",
+    "Position WORD": "GRP HELPER"
+  },
+  {
+    "First Name": "ANASTAZIA",
+    "Last Name": "LAMECK",
+    "Employee ID": 5833,
+    "Department": "IRRIGATION",
+    "Phone": "76448695",
+    "Position": "HELPER",
+    "Position WORD": "HELPER"
+  },
+  {
+    "First Name": "GIDMAN BISHINGWA",
+    "Last Name": "ATHANAS",
+    "Employee ID": 6231,
+    "Department": "IRRIGATION",
+    "Phone": "762530758",
+    "Position": "IRR. ENGINEER",
+    "Position WORD": "IRR. ENGINEER"
+  },
+  {
     "First Name": "MARIA ABEL",
     "Last Name": "TITO",
     "Employee ID": 2968,
@@ -8035,6 +10681,213 @@ export const employees = [
     "Phone": "628383513",
     "Position": "EXCAVATOR OPERATOR",
     "Position WORD": "EXCAVATOR OPERATOR"
+  },
+  {
+    "First Name": "MUSA",
+    "Last Name": "MACHIKIZA",
+    "Employee ID": 6311,
+    "Department": "IRRIGATION",
+    "Phone": "763725322",
+    "Position": "INSTALLATION HELPER",
+    "Position WORD": "INSTALLATION HELPER"
+  },
+  {
+    "First Name": "GERVAS",
+    "Last Name": "FIDEL",
+    "Employee ID": 6316,
+    "Department": "IRRIGATION",
+    "Phone": "651010748",
+    "Position": "INSTALLATION HELPER",
+    "Position WORD": "INSTALLATION HELPER"
+  },
+  {
+    "First Name": "PETRO",
+    "Last Name": "RUVUNAGU",
+    "Employee ID": 6320,
+    "Department": "IRRIGATION",
+    "Phone": "764981059",
+    "Position": "INSTALLATION HELPER",
+    "Position WORD": "INSTALLATION HELPER"
+  },
+  {
+    "First Name": "ANTONY",
+    "Last Name": "JOFREY",
+    "Employee ID": 6304,
+    "Department": "IRRIGATION",
+    "Phone": "763891893",
+    "Position": "INSTALLATION HELPER",
+    "Position WORD": "INSTALLATION HELPER"
+  },
+  {
+    "First Name": "KOBAROGOMBA",
+    "Last Name": "RAMADHAN",
+    "Employee ID": 6305,
+    "Department": "IRRIGATION",
+    "Phone": "695931236",
+    "Position": "INSTALLATION HELPER",
+    "Position WORD": "INSTALLATION HELPER"
+  },
+  {
+    "First Name": "AMON",
+    "Last Name": "REUBEN",
+    "Employee ID": 6315,
+    "Department": "IRRIGATION",
+    "Phone": "614274212",
+    "Position": "INSTALLATION HELPER",
+    "Position WORD": "INSTALLATION HELPER"
+  },
+  {
+    "First Name": "RAFAEL",
+    "Last Name": "ZAKALIA",
+    "Employee ID": 6303,
+    "Department": "IRRIGATION",
+    "Phone": "714933343",
+    "Position": "INSTALLATION HELPER",
+    "Position WORD": "INSTALLATION HELPER"
+  },
+  {
+    "First Name": "ODAKSI",
+    "Last Name": "HOSEA",
+    "Employee ID": 6309,
+    "Department": "IRRIGATION",
+    "Phone": "743424970",
+    "Position": "INSTALLATION HELPER",
+    "Position WORD": "INSTALLATION HELPER"
+  },
+  {
+    "First Name": "EZEKIA",
+    "Last Name": "MESHAKI",
+    "Employee ID": 6312,
+    "Department": "IRRIGATION",
+    "Phone": "622008100",
+    "Position": "INSTALLATION HELPER",
+    "Position WORD": "INSTALLATION HELPER"
+  },
+  {
+    "First Name": "EMMANUEL",
+    "Last Name": "SHIJA",
+    "Employee ID": 6301,
+    "Department": "IRRIGATION",
+    "Phone": "797280371",
+    "Position": "INSTALLATION HELPER",
+    "Position WORD": "INSTALLATION HELPER"
+  },
+  {
+    "First Name": "DIKSON",
+    "Last Name": "DEOGRATIUS",
+    "Employee ID": 6318,
+    "Department": "IRRIGATION",
+    "Phone": "750669696",
+    "Position": "INSTALLATION HELPER",
+    "Position WORD": "INSTALLATION HELPER"
+  },
+  {
+    "First Name": "AMON",
+    "Last Name": "BIHAYI",
+    "Employee ID": 6308,
+    "Department": "IRRIGATION",
+    "Phone": "626956239",
+    "Position": "INSTALLATION HELPER",
+    "Position WORD": "INSTALLATION HELPER"
+  },
+  {
+    "First Name": "ZAKAYO",
+    "Last Name": "JOHNBOSCO",
+    "Employee ID": 6317,
+    "Department": "IRRIGATION",
+    "Phone": "672781879",
+    "Position": "INSTALLATION HELPER",
+    "Position WORD": "INSTALLATION HELPER"
+  },
+  {
+    "First Name": "ISAKA",
+    "Last Name": "MUSSA",
+    "Employee ID": 6319,
+    "Department": "IRRIGATION",
+    "Phone": "672781879",
+    "Position": "INSTALLATION HELPER",
+    "Position WORD": "INSTALLATION HELPER"
+  },
+  {
+    "First Name": "OSEHA",
+    "Last Name": "PAULO",
+    "Employee ID": 6314,
+    "Department": "IRRIGATION",
+    "Phone": "743041545",
+    "Position": "INSTALLATION HELPER",
+    "Position WORD": "INSTALLATION HELPER"
+  },
+  {
+    "First Name": "SELEMANI",
+    "Last Name": "ISACK",
+    "Employee ID": 6321,
+    "Department": "IRRIGATION",
+    "Phone": "747813564",
+    "Position": "INSTALLATION HELPER",
+    "Position WORD": "INSTALLATION HELPER"
+  },
+  {
+    "First Name": "FAHARI",
+    "Last Name": "NGARAMA",
+    "Employee ID": 6310,
+    "Department": "IRRIGATION",
+    "Phone": "757846264",
+    "Position": "INSTALLATION HELPER",
+    "Position WORD": "INSTALLATION HELPER"
+  },
+  {
+    "First Name": "OBEDI",
+    "Last Name": "AMOS",
+    "Employee ID": 6322,
+    "Department": "IRRIGATION",
+    "Phone": "798858848",
+    "Position": "INSTALLATION HELPER",
+    "Position WORD": "INSTALLATION HELPER"
+  },
+  {
+    "First Name": "MUSSA",
+    "Last Name": "JUMA",
+    "Employee ID": 3844,
+    "Department": "IRRIGATION",
+    "Phone": "744763091",
+    "Position": "INSTALLATION HELPER",
+    "Position WORD": "INSTALLATION HELPER"
+  },
+  {
+    "First Name": "FABIAN",
+    "Last Name": "NTAGOLEKWA",
+    "Employee ID": 6113,
+    "Department": "IRRIGATION",
+    "Phone": "628249043",
+    "Position": "INSTALLATION HELPER",
+    "Position WORD": "INSTALLATION HELPER"
+  },
+  {
+    "First Name": "SHEDRACK",
+    "Last Name": "MUYONGA",
+    "Employee ID": 6307,
+    "Department": "IRRIGATION",
+    "Phone": "695998182",
+    "Position": "INSTALLATION HELPER",
+    "Position WORD": "INSTALLATION HELPER"
+  },
+  {
+    "First Name": "ASA",
+    "Last Name": "STEVEN",
+    "Employee ID": 6306,
+    "Department": "IRRIGATION",
+    "Phone": "762261923",
+    "Position": "INSTALLATION HELPER",
+    "Position WORD": "INSTALLATION HELPER"
+  },
+  {
+    "First Name": "WENCHENSLAUS",
+    "Last Name": "FABIAN",
+    "Employee ID": 6302,
+    "Department": "IRRIGATION",
+    "Phone": "745872926",
+    "Position": "INSTALLATION HELPER",
+    "Position WORD": "INSTALLATION HELPER"
   },
   {
     "First Name": "JACKSON KARUME",
@@ -8206,6 +11059,69 @@ export const employees = [
     "Phone": null,
     "Position": "WHEEL LOADER OP",
     "Position WORD": "WHEEL LOADER OP"
+  },
+  {
+    "First Name": "FABIAN EDWARD",
+    "Last Name": "NJAHASI",
+    "Employee ID": 11,
+    "Department": "Land Department",
+    "Phone": null,
+    "Position": "TRACTOR OPERATOR",
+    "Position WORD": "TRACTOR OPERATOR"
+  },
+  {
+    "First Name": "MICHAEL",
+    "Last Name": "JUMA",
+    "Employee ID": 226,
+    "Department": "Land Department",
+    "Phone": null,
+    "Position": "TRACTOR OPERATOR",
+    "Position WORD": "TRACTOR OPERATOR"
+  },
+  {
+    "First Name": "BARAKA JAMES",
+    "Last Name": "LUKUNGA",
+    "Employee ID": 2666,
+    "Department": "Land Department",
+    "Phone": null,
+    "Position": "GRADER OPERATOR",
+    "Position WORD": "GRADER OPERATOR"
+  },
+  {
+    "First Name": "TAMALI SAMWELI",
+    "Last Name": "NDIMUGWANKO",
+    "Employee ID": 5020,
+    "Department": "Land Department",
+    "Phone": null,
+    "Position": "CHAINSAW OPERATOR",
+    "Position WORD": "CHAINSAW OPERATOR"
+  },
+  {
+    "First Name": "GIVEN AIDAN",
+    "Last Name": "BWENDE",
+    "Employee ID": 3397,
+    "Department": "Land Department",
+    "Phone": null,
+    "Position": "TRACTOR OPERATOR",
+    "Position WORD": "TRACTOR OPERATOR"
+  },
+  {
+    "First Name": "ELIYA PHILIPO",
+    "Last Name": "SIMON",
+    "Employee ID": 5494,
+    "Department": "Land Department",
+    "Phone": null,
+    "Position": "HYDRACANE OPERATOR",
+    "Position WORD": "HYDRACANE OPERATOR"
+  },
+  {
+    "First Name": "JOYCE ERNEST",
+    "Last Name": "KILITO",
+    "Employee ID": 5568,
+    "Department": "Land Department",
+    "Phone": null,
+    "Position": "SUPERVISOR",
+    "Position WORD": "SUPERVISOR"
   },
   {
     "First Name": "ADROFINA KAGOMA",
@@ -8526,15 +11442,6 @@ export const employees = [
     "First Name": "MTENDEWA JOHN",
     "Last Name": "MAHOBE",
     "Employee ID": 5310,
-    "Department": "LAND DEVELOPMENT",
-    "Phone": null,
-    "Position": "ROOT PICKER",
-    "Position WORD": "ROOT PICKER"
-  },
-  {
-    "First Name": "MUSSA   JUMA",
-    "Last Name": "FABIAN",
-    "Employee ID": 3844,
     "Department": "LAND DEVELOPMENT",
     "Phone": null,
     "Position": "ROOT PICKER",
@@ -9423,15 +12330,6 @@ export const employees = [
     "Position WORD": null
   },
   {
-    "First Name": "ABDUL NUHU",
-    "Last Name": "SHABAN",
-    "Employee ID": 3485,
-    "Department": "LAND DEVELOPMENT",
-    "Phone": null,
-    "Position": "WHEEL LOADER OP",
-    "Position WORD": "WHEEL LOADER OP"
-  },
-  {
     "First Name": "IMAKULATA GODSON",
     "Last Name": "ALDOF",
     "Employee ID": 3486,
@@ -9457,15 +12355,6 @@ export const employees = [
     "Phone": null,
     "Position": "CHAINSAW OPERATOR",
     "Position WORD": "CHAINSAW OPERATOR"
-  },
-  {
-    "First Name": "ANORD MUTATINA",
-    "Last Name": "PETRO",
-    "Employee ID": 3888,
-    "Department": "LAND DEVELOPMENT",
-    "Phone": null,
-    "Position": "DOZER OPERATOR",
-    "Position WORD": null
   },
   {
     "First Name": "ENOCK CONRAD",
@@ -9729,15 +12618,6 @@ export const employees = [
     "Position WORD": null
   },
   {
-    "First Name": "PETER JOHN",
-    "Last Name": "LUNDOMYA",
-    "Employee ID": 4543,
-    "Department": "LAND DEVELOPMENT",
-    "Phone": null,
-    "Position": "ROOT PICKERS",
-    "Position WORD": null
-  },
-  {
     "First Name": "EDSON BENARD",
     "Last Name": "MKOMA",
     "Employee ID": 4562,
@@ -9978,15 +12858,6 @@ export const employees = [
     "Department": "LAND DEVELOPMENT",
     "Phone": null,
     "Position": "CHAINSAW HELPER",
-    "Position WORD": null
-  },
-  {
-    "First Name": "TAMALI SAMWELI",
-    "Last Name": "NDIMUGWANKO",
-    "Employee ID": 5020,
-    "Department": "LAND DEVELOPMENT",
-    "Phone": null,
-    "Position": "CHAINSAW OPERATOR",
     "Position WORD": null
   },
   {
@@ -10248,15 +13119,6 @@ export const employees = [
     "Department": "LAND DEVELOPMENT",
     "Phone": null,
     "Position": "LAND HELPER",
-    "Position WORD": null
-  },
-  {
-    "First Name": "SALIMA BAZI",
-    "Last Name": "MASABILE",
-    "Employee ID": 5154,
-    "Department": "LAND DEVELOPMENT",
-    "Phone": null,
-    "Position": "HELPER",
     "Position WORD": null
   },
   {
@@ -11133,12 +13995,1263 @@ export const employees = [
     "Position WORD": "ROOT PICKER"
   },
   {
+    "First Name": "JOHN JOSEPH",
+    "Last Name": "LINGE",
+    "Employee ID": 989,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": "788708942",
+    "Position": "GRAB LOADER",
+    "Position WORD": "GRAB LOADER"
+  },
+  {
+    "First Name": "SHABANI MOHAMED",
+    "Last Name": "MALANGO",
+    "Employee ID": 5686,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "WHEEL LOADER OPERATOR",
+    "Position WORD": "WHEEL LOADER OPERATOR"
+  },
+  {
+    "First Name": "MOSHI SHABAN",
+    "Last Name": "MHOZYA",
+    "Employee ID": 2605,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "WHEEL LOADER OPERATOR",
+    "Position WORD": "WHEEL LOADER OPERATOR"
+  },
+  {
+    "First Name": "ALEX KAGOMA",
+    "Last Name": "LUHURUMBA",
+    "Employee ID": 379,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "ROOT PICKER",
+    "Position WORD": "ROOT PICKER"
+  },
+  {
+    "First Name": "MERINAS JIKONIA",
+    "Last Name": "NELSON",
+    "Employee ID": 3542,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "ONESMO ALFRED",
+    "Last Name": "AGUSTINO",
+    "Employee ID": 3698,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "EDINA BARNABAS",
+    "Last Name": "KAGOMA",
+    "Employee ID": 3766,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "ROOT PICKER",
+    "Position WORD": "ROOT PICKER"
+  },
+  {
+    "First Name": "HERBERT NOBERT",
+    "Last Name": "KADUGWA",
+    "Employee ID": 3773,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "BARAKA DUNIA",
+    "Last Name": "BULENDA",
+    "Employee ID": 3785,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "NEEMA JULIUS",
+    "Last Name": "LUNYONGANYONGA",
+    "Employee ID": 3918,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "ROOT PICKER",
+    "Position WORD": "ROOT PICKER"
+  },
+  {
+    "First Name": "FREDRICK JUSTIN",
+    "Last Name": "MURICHI",
+    "Employee ID": 3948,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "ROOT PICKER",
+    "Position WORD": "ROOT PICKER"
+  },
+  {
+    "First Name": "MAJALIWA LAMECK",
+    "Last Name": "RAPHAEL",
+    "Employee ID": 3993,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "ROOT PICKER",
+    "Position WORD": "ROOT PICKER"
+  },
+  {
+    "First Name": "NTEMEZI ANJERUS",
+    "Last Name": "NDABAHE",
+    "Employee ID": 4101,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "ROOT PICKER",
+    "Position WORD": "ROOT PICKER"
+  },
+  {
+    "First Name": "ASHURA DAUD",
+    "Last Name": "JUMA",
+    "Employee ID": 4871,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "ROOT PICKER",
+    "Position WORD": "ROOT PICKER"
+  },
+  {
+    "First Name": "HESHTON RAPHAEL NESTOR",
+    "Last Name": "NESTORY",
+    "Employee ID": 4882,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "ELIUD NTEZILIBA",
+    "Last Name": "KAGINA",
+    "Employee ID": 4906,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "ROOT PICKER",
+    "Position WORD": "ROOT PICKER"
+  },
+  {
+    "First Name": "SIMADA MATESO",
+    "Last Name": "KAPULU",
+    "Employee ID": 4956,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "SIWEMA MTONDO",
+    "Last Name": "BARUTI",
+    "Employee ID": 5930,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "ESSAU KAGOMA",
+    "Last Name": "MJULI",
+    "Employee ID": 5931,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "SHAURI BOAZ",
+    "Last Name": "KIPARA",
+    "Employee ID": 5932,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "ALON MICHAEL",
+    "Last Name": "KAPOLI",
+    "Employee ID": 5933,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "RAMSO JUMA",
+    "Last Name": "KIFUA",
+    "Employee ID": 5934,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "FRANCIS GERVAS",
+    "Last Name": "FRANCIS",
+    "Employee ID": 5935,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "ROOT PICKER",
+    "Position WORD": "ROOT PICKER"
+  },
+  {
+    "First Name": "AMAN FILBERT",
+    "Last Name": "BIGAWA",
+    "Employee ID": 5936,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "HEKIMA EDSON",
+    "Last Name": "YOTHAM",
+    "Employee ID": 5937,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "ROOT PICKER",
+    "Position WORD": "ROOT PICKER"
+  },
+  {
+    "First Name": "JACKLINE DANIEL",
+    "Last Name": "JUMA",
+    "Employee ID": 5938,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "TIMOTHEO JARED",
+    "Last Name": "MSIGALO",
+    "Employee ID": 5939,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "ORESTA ELIAS",
+    "Last Name": "KAGOMA",
+    "Employee ID": 5940,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "ROOT PICKER",
+    "Position WORD": "ROOT PICKER"
+  },
+  {
+    "First Name": "FABIANO EDWIN",
+    "Last Name": "ALFRED",
+    "Employee ID": 5941,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "SIFA ELISHA",
+    "Last Name": "BWANDU",
+    "Employee ID": 5942,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "BENEDICTO ROBART",
+    "Last Name": "FURAHA",
+    "Employee ID": 5943,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "ANORD DAUDI",
+    "Last Name": "MAYE",
+    "Employee ID": 5944,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "ELIUD DAUD",
+    "Last Name": "CHARLES",
+    "Employee ID": 5945,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "EDISA JARED",
+    "Last Name": "SELEMBA",
+    "Employee ID": 5946,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "RECKISEDA NYASIO",
+    "Last Name": "CHARLES",
+    "Employee ID": 5949,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "ELIZABETH SAMWEL",
+    "Last Name": "MADALALA",
+    "Employee ID": 5950,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "ROOT PICKER",
+    "Position WORD": "ROOT PICKER"
+  },
+  {
+    "First Name": "SHERIDA NAMAN",
+    "Last Name": "KAJORO",
+    "Employee ID": 5951,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "JARED VENANCE",
+    "Last Name": "JUMA",
+    "Employee ID": 5952,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "KIZA DAUD",
+    "Last Name": "JACKSON",
+    "Employee ID": 5953,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "MAONI AMOS",
+    "Last Name": "KAGINA",
+    "Employee ID": 5954,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "ROOT PICKER",
+    "Position WORD": "ROOT PICKER"
+  },
+  {
+    "First Name": "SHAMIRI SAID",
+    "Last Name": "MUHOZA",
+    "Employee ID": 5955,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "LIGHTNESS ELISHA",
+    "Last Name": "BWANDU",
+    "Employee ID": 5956,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "ROOT PICKER",
+    "Position WORD": "ROOT PICKER"
+  },
+  {
+    "First Name": "LUCIA JOSEPH",
+    "Last Name": "MFANYE",
+    "Employee ID": 5957,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "ROOT PICKER",
+    "Position WORD": "ROOT PICKER"
+  },
+  {
+    "First Name": "MELDA RAPHAEL",
+    "Last Name": "GABRIEL",
+    "Employee ID": 5958,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "ROOT PICKER",
+    "Position WORD": "ROOT PICKER"
+  },
+  {
+    "First Name": "SIFA CHUNGANA",
+    "Last Name": "HUPIRA",
+    "Employee ID": 5960,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "JULIETHA JIKONIA",
+    "Last Name": "NELSON",
+    "Employee ID": 5961,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "ROOT PICKER",
+    "Position WORD": "ROOT PICKER"
+  },
+  {
+    "First Name": "ROSHI MBISHE",
+    "Last Name": "PASCHAL",
+    "Employee ID": 5962,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "ROOT PICKER",
+    "Position WORD": "ROOT PICKER"
+  },
+  {
+    "First Name": "FREDRICK MUHOZA",
+    "Last Name": "NTAMPERA",
+    "Employee ID": 5963,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "ROOT PICKER",
+    "Position WORD": "ROOT PICKER"
+  },
+  {
+    "First Name": "HAWA NDICHAE",
+    "Last Name": "EDWIN",
+    "Employee ID": 5964,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "SUZANA KAVAKO",
+    "Last Name": "NYAKITU",
+    "Employee ID": 5965,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "FAUSTIN AGUSTINO",
+    "Last Name": "NTENDELI",
+    "Employee ID": 5966,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "HAMISA KILIMA",
+    "Last Name": "MBUZE",
+    "Employee ID": 5967,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "ESTER YOLONIMU",
+    "Last Name": "MATHAYO",
+    "Employee ID": 5968,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "LAWLENCE EVARIST",
+    "Last Name": "JOHN",
+    "Employee ID": 5969,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "SHORA ANDERSON",
+    "Last Name": "LUBEGWA",
+    "Employee ID": 5970,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "YOABU YORAM",
+    "Last Name": "GEORGE",
+    "Employee ID": 5971,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "STELLA AGUSTINO",
+    "Last Name": "MATATA",
+    "Employee ID": 5972,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "FATUMA JUMANNE",
+    "Last Name": "KIRAKA",
+    "Employee ID": 5973,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "ROOT PICKER",
+    "Position WORD": "ROOT PICKER"
+  },
+  {
+    "First Name": "SARA IBRAHIM",
+    "Last Name": "KAZAMASO",
+    "Employee ID": 5974,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "AMAN KILOMBA",
+    "Last Name": "MAZAGE",
+    "Employee ID": 5975,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE COLLECTION",
+    "Position WORD": "STONE COLLECTION"
+  },
+  {
+    "First Name": "ROBERT",
+    "Last Name": "BWANDU",
+    "Employee ID": 5976,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "DEKASI DISMAS",
+    "Last Name": "MANGUMI",
+    "Employee ID": 5977,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "RAHIM HAMIS",
+    "Last Name": "KINYUKO",
+    "Employee ID": 5978,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "CASTORY FRANSISCO",
+    "Last Name": "LUCAS",
+    "Employee ID": 5979,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "EZRON JONATHAN",
+    "Last Name": "SAID",
+    "Employee ID": 5980,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "DENISA DANFORD",
+    "Last Name": "NGEZE",
+    "Employee ID": 5981,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "FELISTA NGOROBA",
+    "Last Name": "SANZUGWIMO",
+    "Employee ID": 5982,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "ESTER ELICKDAD",
+    "Last Name": "POLY",
+    "Employee ID": 5983,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "ROOT PICKER",
+    "Position WORD": "ROOT PICKER"
+  },
+  {
+    "First Name": "ANASTADHIA AGUSTINO",
+    "Last Name": "CHUPAZA",
+    "Employee ID": 5984,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "SUZAN MUSSA",
+    "Last Name": "NTAKIMAZI",
+    "Employee ID": 5985,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "LOIS HAMIS",
+    "Last Name": "IDRISSA",
+    "Employee ID": 5987,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "AMINA FILBERT",
+    "Last Name": "BIGAWA",
+    "Employee ID": 5988,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "ANASTADHIA HAMENYA",
+    "Last Name": "ELIAS",
+    "Employee ID": 5989,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "ELIAZARI SINDARUSIZE",
+    "Last Name": "MTOHA",
+    "Employee ID": 5990,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "AMON NTAMORO",
+    "Last Name": "MUTIMBA",
+    "Employee ID": 5991,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "JEROME HENRICO",
+    "Last Name": "KIMOLIMOLI",
+    "Employee ID": 5992,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "GOZBETH GIDIONI",
+    "Last Name": "NTOYI",
+    "Employee ID": 5993,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "ALON SHUKURU",
+    "Last Name": "MOSHI",
+    "Employee ID": 5994,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "RABANI RAPHAEL",
+    "Last Name": "JAMES",
+    "Employee ID": 5995,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "MATENDO JOHN",
+    "Last Name": "BACHIKILE",
+    "Employee ID": 5996,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "JACOB ABIAS",
+    "Last Name": "MICHAEL",
+    "Employee ID": 5997,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "HAPPNESS",
+    "Last Name": "MILEMBI",
+    "Employee ID": 5998,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "ROOT PICKER",
+    "Position WORD": "ROOT PICKER"
+  },
+  {
+    "First Name": "EVA HAMIS",
+    "Last Name": "MASHAZA",
+    "Employee ID": 5999,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "ROOT PICKER",
+    "Position WORD": "ROOT PICKER"
+  },
+  {
+    "First Name": "MSIGWA MSLIKALE",
+    "Last Name": "KATABIZI",
+    "Employee ID": 6000,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "SABATO VENANCE",
+    "Last Name": "BUNILE",
+    "Employee ID": 6002,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "JOSEPH JOHN",
+    "Last Name": "MAOBE",
+    "Employee ID": 6003,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "JOSEPHAT ISAYA",
+    "Last Name": "NCHULA",
+    "Employee ID": 6005,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "FESTO SILVANUS",
+    "Last Name": "SEBASTIANO",
+    "Employee ID": 6006,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "ROOT PICKER",
+    "Position WORD": "ROOT PICKER"
+  },
+  {
+    "First Name": "JUVENTUS RAPHAEL",
+    "Last Name": "KIBIRITI",
+    "Employee ID": 6007,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "COSMAS SAMWEL",
+    "Last Name": "FUTI",
+    "Employee ID": 6008,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "ROOT PICKER",
+    "Position WORD": "ROOT PICKER"
+  },
+  {
+    "First Name": "BAHATI MWORO",
+    "Last Name": "CHULILA",
+    "Employee ID": 6009,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "ROOT PICKER",
+    "Position WORD": "ROOT PICKER"
+  },
+  {
+    "First Name": "LAURENT NDINZE",
+    "Last Name": "LAURENT",
+    "Employee ID": 6010,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "JULIANA LUCAS",
+    "Last Name": "PEYA",
+    "Employee ID": 6014,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE COLLECTION",
+    "Position WORD": "STONE COLLECTION"
+  },
+  {
+    "First Name": "RAY AIDAN",
+    "Last Name": "TAMATI",
+    "Employee ID": 6030,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "DATA CLERK",
+    "Position WORD": "DATA CLERK"
+  },
+  {
+    "First Name": "BEATRICE CHRISTOPHER",
+    "Last Name": "NTAWE",
+    "Employee ID": 6001,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "STONE PICKER",
+    "Position WORD": "STONE PICKER"
+  },
+  {
+    "First Name": "MICHAEL FABIAN",
+    "Last Name": "KIMWAGA",
+    "Employee ID": 5683,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "WHEEL LOADER OPERATOR",
+    "Position WORD": "WHEEL LOADER OPERATOR"
+  },
+  {
+    "First Name": "RASHID CLETUS",
+    "Last Name": "LUMBWE",
+    "Employee ID": 5920,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "DOZER OPERATOR",
+    "Position WORD": "DOZER OPERATOR"
+  },
+  {
+    "First Name": "ANDREW KASHINDI",
+    "Last Name": "RUBHOGORA",
+    "Employee ID": 6374,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "ANITHA",
+    "Last Name": "CONORARD",
+    "Employee ID": 6382,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "DERSON SOSTENES",
+    "Last Name": "MYAZAGIRO",
+    "Employee ID": 6383,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "DOTTO JOHN",
+    "Last Name": "KAVULA",
+    "Employee ID": 6397,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "ELVIA TRAIPHONE",
+    "Last Name": "MAGANA",
+    "Employee ID": 6409,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "EPIPHANIA FRANCIS",
+    "Last Name": "MAHOBE",
+    "Employee ID": 6395,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "ESTA JONAS",
+    "Last Name": "BWENGE",
+    "Employee ID": 6414,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "EVERINA FURAHA",
+    "Last Name": "SOLOMON",
+    "Employee ID": 6396,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "EZEKIEL ALBINIUS",
+    "Last Name": "MPUMBI",
+    "Employee ID": 6378,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "FELISTER ELIAS",
+    "Last Name": "NTAKIMAZI",
+    "Employee ID": 6381,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "GEOFREY MSAMA",
+    "Last Name": "MALILO",
+    "Employee ID": 5520,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "HOWO DRIVER",
+    "Position WORD": "HOWO DRIVER"
+  },
+  {
+    "First Name": "GETRUDA ISSA",
+    "Last Name": "NDALIBANALE",
+    "Employee ID": 6380,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "HUSSEIN",
+    "Last Name": "OMARY",
+    "Employee ID": 6392,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "JOHANSEN NKURUSHI",
+    "Last Name": "BILANGWE",
+    "Employee ID": 6413,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "JONAS CHBRISTOPHER",
+    "Last Name": "MSAFIRI",
+    "Employee ID": 6407,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "JOSHUA RUMBA",
+    "Last Name": "NDUMWAMVE",
+    "Employee ID": 6401,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "LAWI VITUS",
+    "Last Name": "NDEME",
+    "Employee ID": 6406,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "MAJUTO",
+    "Last Name": "KUFULU",
+    "Employee ID": 1167,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "MARIAM AMON",
+    "Last Name": "JUMA",
+    "Employee ID": 6377,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "MATENDO YABEBE",
+    "Last Name": "MBUZE",
+    "Employee ID": 6393,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "MAXMILLIAN ALFRED",
+    "Last Name": "TUNZE",
+    "Employee ID": 6387,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "MILTON ADRIANO",
+    "Last Name": "MUSSA",
+    "Employee ID": 6390,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "MIRAJ MAWAZO",
+    "Last Name": "NGENDAMENYA",
+    "Employee ID": 6388,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "MUNGWE LUCAS",
+    "Last Name": "MUNGWE",
+    "Employee ID": 6405,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "NICHOLAUS MADUA",
+    "Last Name": "KANYOTA",
+    "Employee ID": 6394,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "OSELDA OBERTH",
+    "Last Name": "MBAGA",
+    "Employee ID": 6376,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "PETRO YOTHAM",
+    "Last Name": "KAGOMA",
+    "Employee ID": 6399,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "PIUS YUSUPH",
+    "Last Name": "BILANGWE",
+    "Employee ID": 6298,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "REHEMA ROBERT",
+    "Last Name": "BALAHEKENYA",
+    "Employee ID": 6389,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "SAADA JAFAR",
+    "Last Name": "ALLY",
+    "Employee ID": 6403,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "SPOLA TOYI",
+    "Last Name": "SINZI",
+    "Employee ID": 6375,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "STERIA YOHANA",
+    "Last Name": "ELIAS",
+    "Employee ID": 6402,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "TAABU HENRY",
+    "Last Name": "ALFRED",
+    "Employee ID": 6386,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "VAILETH JOHN",
+    "Last Name": "KATOZI",
+    "Employee ID": 6411,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "VENAS NOEL",
+    "Last Name": "NDALABA",
+    "Employee ID": 3994,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "VENERANDA LAURIN",
+    "Last Name": "JOHN",
+    "Employee ID": 6379,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "VICENT ANDREA",
+    "Last Name": "ABUDEMA",
+    "Employee ID": 6408,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "WITO LUCAS",
+    "Last Name": "BUJANA",
+    "Employee ID": 6398,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "YUSTA TASIANA",
+    "Last Name": "TUNDA",
+    "Employee ID": 6385,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "ZAKAYO MESHACK",
+    "Last Name": "KALULEGE",
+    "Employee ID": 6400,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "ZELDA MANISHA",
+    "Last Name": "MIVUBA",
+    "Employee ID": 6391,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
+    "First Name": "ZUWENA KABUYE",
+    "Last Name": "GWANKO",
+    "Employee ID": 6404,
+    "Department": "LAND DEVELOPMENT",
+    "Phone": null,
+    "Position": "General helper",
+    "Position WORD": "General helper"
+  },
+  {
     "First Name": "AZIZ",
     "Last Name": "OMARY",
     "Employee ID": 3045,
     "Department": "PROCUREMENT",
     "Phone": "685765175",
-    "Position": "ROOT PICKER",
+    "Position": "GENERAL HELPER",
     "Position WORD": "Procuremt Data clerk"
   },
   {
@@ -11158,6 +15271,15 @@ export const employees = [
     "Phone": "614324869",
     "Position": "PROCUREMENT TRAINEE",
     "Position WORD": "Procurement Trainee"
+  },
+  {
+    "First Name": "DICKSON MAWAZO",
+    "Last Name": "MAYENGO",
+    "Employee ID": 5694,
+    "Department": "PROCUREMENT",
+    "Phone": "621680818",
+    "Position": "PROCUREMENT OFFICER",
+    "Position WORD": "PROCUREMENT OFFICER"
   },
   {
     "First Name": "PAUL",
@@ -11358,6 +15480,303 @@ export const employees = [
     "Position WORD": "FUEL ATTENDER"
   },
   {
+    "First Name": "YUSUPH ABDALLAH",
+    "Last Name": "SOLLAH",
+    "Employee ID": 5536,
+    "Department": "SECURITY",
+    "Phone": "759212263",
+    "Position": "SECURITY OFFICER",
+    "Position WORD": "SECURITY OFFICER"
+  },
+  {
+    "First Name": "SUZAN EMMANUEL",
+    "Last Name": "MAMBOLEO",
+    "Employee ID": 5538,
+    "Department": "SECURITY",
+    "Phone": "634849714",
+    "Position": "SECURITY OFFICER",
+    "Position WORD": "SECURITY OFFICER"
+  },
+  {
+    "First Name": "JENIPHER SIMON",
+    "Last Name": "BUZIZI",
+    "Employee ID": 5539,
+    "Department": "SECURITY",
+    "Phone": "623712113",
+    "Position": "SECURITY OFFICER",
+    "Position WORD": "SECURITY OFFICER"
+  },
+  {
+    "First Name": "LETICIA SAMSON",
+    "Last Name": "KAYULI",
+    "Employee ID": 5552,
+    "Department": "SECURITY",
+    "Phone": "653365862",
+    "Position": "FUEL ATTENDANT",
+    "Position WORD": "FUEL ATTENDANT"
+  },
+  {
+    "First Name": "DANFORD RABSON",
+    "Last Name": "MAPOLI",
+    "Employee ID": 5553,
+    "Department": "SECURITY",
+    "Phone": "749676965",
+    "Position": "FUEL ATTENDANT",
+    "Position WORD": "FUEL ATTENDANT"
+  },
+  {
+    "First Name": "DICKSON DEUSDEDITH",
+    "Last Name": "ELIAS",
+    "Employee ID": 3884,
+    "Department": "SECURITY",
+    "Phone": "752363604",
+    "Position": "SECURITY OFFICER",
+    "Position WORD": "SECURITY OFFICER"
+  },
+  {
+    "First Name": "AMRI SUED",
+    "Last Name": "BINUGWA",
+    "Employee ID": 5579,
+    "Department": "SECURITY",
+    "Phone": "759212263",
+    "Position": "SECURITY OFFICER",
+    "Position WORD": "SECURITY OFFICER"
+  },
+  {
+    "First Name": "SABASI SALASIUS",
+    "Last Name": "ALEX",
+    "Employee ID": 5673,
+    "Department": "SECURITY",
+    "Phone": "634849714",
+    "Position": "FUEL ATTENDANT",
+    "Position WORD": "FUEL ATTENDANT"
+  },
+  {
+    "First Name": "UPENDO ROBERT",
+    "Last Name": "NSIMBA",
+    "Employee ID": 5675,
+    "Department": "SECURITY",
+    "Phone": "623712113",
+    "Position": "FUEL ATTENDANT",
+    "Position WORD": "FUEL ATTENDANT"
+  },
+  {
+    "First Name": "PHILIPINA LINGWE",
+    "Last Name": "LUBUYE",
+    "Employee ID": 5676,
+    "Department": "SECURITY",
+    "Phone": "653365862",
+    "Position": "FUEL ATTENDANT",
+    "Position WORD": "FUEL ATTENDANT"
+  },
+  {
+    "First Name": "DEUS BARAKA",
+    "Last Name": "KATUNZI",
+    "Employee ID": 5677,
+    "Department": "SECURITY",
+    "Phone": "749676965",
+    "Position": "FUEL ATTENDANT",
+    "Position WORD": "FUEL ATTENDANT"
+  },
+  {
+    "First Name": "ROBARTI GODWIN",
+    "Last Name": "KIHARAZA",
+    "Employee ID": 5693,
+    "Department": "SECURITY",
+    "Phone": "752363604",
+    "Position": "FUEL ATTENDANT",
+    "Position WORD": "FUEL ATTENDANT"
+  },
+  {
+    "First Name": "GEORGE LAWRENT",
+    "Last Name": "AMWOM",
+    "Employee ID": 5695,
+    "Department": "SECURITY",
+    "Phone": "759942265",
+    "Position": "SECURITY OFFICER",
+    "Position WORD": "SECURITY OFFICER"
+  },
+  {
+    "First Name": "OLIVER JOSEPHAT",
+    "Last Name": "NNKO",
+    "Employee ID": 5696,
+    "Department": "SECURITY",
+    "Phone": "760505480",
+    "Position": "SECURITY OFFICER",
+    "Position WORD": "SECURITY OFFICER"
+  },
+  {
+    "First Name": "GOODLUCK PHILIPO",
+    "Last Name": "KOMBA",
+    "Employee ID": 5697,
+    "Department": "SECURITY",
+    "Phone": "769876810",
+    "Position": "SECURITY OFFICER",
+    "Position WORD": "SECURITY OFFICER"
+  },
+  {
+    "First Name": "BERNADETHA TEOPIST",
+    "Last Name": "ZAKEO",
+    "Employee ID": 5698,
+    "Department": "SECURITY",
+    "Phone": "622560337",
+    "Position": "SECURITY OFFICER",
+    "Position WORD": "SECURITY OFFICER"
+  },
+  {
+    "First Name": "SALUM SAID",
+    "Last Name": "GEORGE",
+    "Employee ID": 5699,
+    "Department": "SECURITY",
+    "Phone": "687862738",
+    "Position": "SECURITY OFFICER",
+    "Position WORD": "SECURITY OFFICER"
+  },
+  {
+    "First Name": "YUSTER GERARD",
+    "Last Name": "RUVIWABU",
+    "Employee ID": 5701,
+    "Department": "SECURITY",
+    "Phone": "612045378",
+    "Position": "SECURITY OFFICER",
+    "Position WORD": "SECURITY OFFICER"
+  },
+  {
+    "First Name": "ANJELINA AJUNA",
+    "Last Name": "WILSON",
+    "Employee ID": 5702,
+    "Department": "SECURITY",
+    "Phone": "613488784",
+    "Position": "SECURITY OFFICER",
+    "Position WORD": "SECURITY OFFICER"
+  },
+  {
+    "First Name": "NOAH METHORD",
+    "Last Name": "MORICE",
+    "Employee ID": 5742,
+    "Department": "SECURITY",
+    "Phone": "77298835",
+    "Position": "SECURITY OFFICER",
+    "Position WORD": "SECURITY OFFICER"
+  },
+  {
+    "First Name": "AZORY RENATUS",
+    "Last Name": "JANUARY",
+    "Employee ID": 5743,
+    "Department": "SECURITY",
+    "Phone": "740285555",
+    "Position": "SECURITY OFFICER",
+    "Position WORD": "SECURITY OFFICER"
+  },
+  {
+    "First Name": "INNOCENT WILFREDY",
+    "Last Name": "MASSAM",
+    "Employee ID": 5760,
+    "Department": "SECURITY",
+    "Phone": "689747021",
+    "Position": "DIESEL TRUCK DRIVER",
+    "Position WORD": "DIESEL TRUCK DRIVER"
+  },
+  {
+    "First Name": "MOSHI ANDERSON",
+    "Last Name": "MAYENGO",
+    "Employee ID": 5761,
+    "Department": "SECURITY",
+    "Phone": "752068835",
+    "Position": "DIESEL TRUCK DRIVER",
+    "Position WORD": "DIESEL TRUCK DRIVER"
+  },
+  {
+    "First Name": "HUSSEIN MOHAMED",
+    "Last Name": "LIBENEKA",
+    "Employee ID": 2932,
+    "Department": "SECURITY",
+    "Phone": "615864700",
+    "Position": "DATA CLERK SECURITY",
+    "Position WORD": "DATA CLERK SECURITY"
+  },
+  {
+    "First Name": "WILLIAM",
+    "Last Name": "MCHELE",
+    "Employee ID": 6286,
+    "Department": "SECURITY",
+    "Phone": null,
+    "Position": "FUEL ATTENDANT",
+    "Position WORD": "FUEL ATTENDANT"
+  },
+  {
+    "First Name": "MUSSA",
+    "Last Name": "BICHE",
+    "Employee ID": 6278,
+    "Department": "SECURITY",
+    "Phone": null,
+    "Position": "SECURITY OFFICER",
+    "Position WORD": "SECURITY OFFICER"
+  },
+  {
+    "First Name": "MOSSES",
+    "Last Name": "KILOSA",
+    "Employee ID": 6279,
+    "Department": "SECURITY",
+    "Phone": null,
+    "Position": "SECURITY OFFICER",
+    "Position WORD": "SECURITY OFFICER"
+  },
+  {
+    "First Name": "MUSSA",
+    "Last Name": "BUGISHA",
+    "Employee ID": 6277,
+    "Department": "SECURITY",
+    "Phone": null,
+    "Position": "SECURITY OFFICER",
+    "Position WORD": "SECURITY OFFICER"
+  },
+  {
+    "First Name": "DAUSON",
+    "Last Name": "KAKURU",
+    "Employee ID": 6282,
+    "Department": "SECURITY",
+    "Phone": null,
+    "Position": "SECURITY OFFICER",
+    "Position WORD": "SECURITY OFFICER"
+  },
+  {
+    "First Name": "CORNERY",
+    "Last Name": "SOGOYO",
+    "Employee ID": 6280,
+    "Department": "SECURITY",
+    "Phone": null,
+    "Position": "SECURITY OFFICER",
+    "Position WORD": "SECURITY OFFICER"
+  },
+  {
+    "First Name": "JOSIA",
+    "Last Name": "NDAHYA",
+    "Employee ID": 4237,
+    "Department": "SECURITY",
+    "Phone": null,
+    "Position": "SECURITY OFFICER",
+    "Position WORD": "SECURITY OFFICER"
+  },
+  {
+    "First Name": "DAMIAN",
+    "Last Name": "KIBASA",
+    "Employee ID": 6281,
+    "Department": "SECURITY",
+    "Phone": null,
+    "Position": "SECURITY OFFICER",
+    "Position WORD": "SECURITY OFFICER"
+  },
+  {
+    "First Name": "JOHN",
+    "Last Name": "LAGIJE",
+    "Employee ID": 6244,
+    "Department": "SECURITY",
+    "Phone": null,
+    "Position": "FUEL CORDINATOR",
+    "Position WORD": "FUEL CORDINATOR"
+  },
+  {
     "First Name": "JANSON",
     "Last Name": "JACOB",
     "Employee ID": 1286,
@@ -11493,15 +15912,6 @@ export const employees = [
     "Position WORD": "DATA CLERK"
   },
   {
-    "First Name": "AHMED",
-    "Last Name": "SHABANI",
-    "Employee ID": 1306,
-    "Department": "SHEQ",
-    "Phone": "765078794",
-    "Position": "SHEQ MANAGER",
-    "Position WORD": "SHEQ MANAGER"
-  },
-  {
     "First Name": "EUNICE",
     "Last Name": "JOHN",
     "Employee ID": 1315,
@@ -11597,8 +16007,8 @@ export const employees = [
     "Employee ID": 2844,
     "Department": "SHEQ",
     "Phone": "629899261",
-    "Position": "DOCTOR",
-    "Position WORD": "DOCTOR"
+    "Position": "NURSE",
+    "Position WORD": "NURSE"
   },
   {
     "First Name": "VANESA",
@@ -11898,6 +16308,168 @@ export const employees = [
     "Position WORD": "AMBULANCE DRIVER"
   },
   {
+    "First Name": "VERONICA",
+    "Last Name": "MUSSA",
+    "Employee ID": 5569,
+    "Department": "SHEQ",
+    "Phone": "775836251",
+    "Position": "CLEANER",
+    "Position WORD": "CLEANER"
+  },
+  {
+    "First Name": "LESIANA",
+    "Last Name": "JOSEPHAT",
+    "Employee ID": 5589,
+    "Department": "SHEQ",
+    "Phone": "748844129",
+    "Position": "CLEANER",
+    "Position WORD": "CLEANER"
+  },
+  {
+    "First Name": "TRISA",
+    "Last Name": "SAMWEL",
+    "Employee ID": 5573,
+    "Department": "SHEQ",
+    "Phone": "744578978",
+    "Position": "CLEANER",
+    "Position WORD": "CLEANER"
+  },
+  {
+    "First Name": "ROBINA",
+    "Last Name": "SAMWEL",
+    "Employee ID": 5574,
+    "Department": "SHEQ",
+    "Phone": "622051993",
+    "Position": "CLEANER",
+    "Position WORD": "CLEANER"
+  },
+  {
+    "First Name": "ELIAKIM",
+    "Last Name": "ANTON",
+    "Employee ID": 5572,
+    "Department": "SHEQ",
+    "Phone": "767280407",
+    "Position": "GARDENER",
+    "Position WORD": "GARDENER"
+  },
+  {
+    "First Name": "FIDELIS THOMAS",
+    "Last Name": "LUBINZA",
+    "Employee ID": 5631,
+    "Department": "SHEQ",
+    "Phone": "763015346",
+    "Position": "LRP IMPLEMENTATION CONSULTANT",
+    "Position WORD": "LRP Implementation Consultant"
+  },
+  {
+    "First Name": "JACKSON SAMWELI",
+    "Last Name": "NYAMGURUTSI",
+    "Employee ID": 5723,
+    "Department": "SHEQ",
+    "Phone": "749390740",
+    "Position": "SAFETY OFFICER GT",
+    "Position WORD": "SAFETY OFFICER GT"
+  },
+  {
+    "First Name": "MAJUTO MATATA",
+    "Last Name": "KALARUMIYE",
+    "Employee ID": 5721,
+    "Department": "SHEQ",
+    "Phone": "746316073",
+    "Position": "SAFETY OFFICER GT",
+    "Position WORD": "SAFETY OFFICER GT"
+  },
+  {
+    "First Name": "LILIAN PROSPER",
+    "Last Name": "RENATUS",
+    "Employee ID": 5744,
+    "Department": "SHEQ",
+    "Phone": null,
+    "Position": "CLEANER",
+    "Position WORD": "CLEANER"
+  },
+  {
+    "First Name": "ALLY RAJABU",
+    "Last Name": "MASUDI",
+    "Employee ID": 6230,
+    "Department": "SHEQ",
+    "Phone": "693596089",
+    "Position": "ECOLOGICAL OFFICER",
+    "Position WORD": "ECOLOGICAL OFFICER"
+  },
+  {
+    "First Name": "KELVIN GIDEON",
+    "Last Name": "TOYI",
+    "Employee ID": 6161,
+    "Department": "SHEQ",
+    "Phone": "747312772",
+    "Position": "VEHICLE CLEANER",
+    "Position WORD": "VEHICLE CLEANER"
+  },
+  {
+    "First Name": "AHMED",
+    "Last Name": "SHABANI",
+    "Employee ID": 1306,
+    "Department": "SHEQ",
+    "Phone": "0765 078 794",
+    "Position": "HSE MANAGER",
+    "Position WORD": "HSE MANAGER"
+  },
+  {
+    "First Name": "GIFT",
+    "Last Name": "MATUMBA",
+    "Employee ID": 6283,
+    "Department": "SHEQ",
+    "Phone": "616008765",
+    "Position": "CLEANER",
+    "Position WORD": "CLEANER"
+  },
+  {
+    "First Name": "GODRIVER",
+    "Last Name": "HAMIS",
+    "Employee ID": 6284,
+    "Department": "SHEQ",
+    "Phone": "757038342",
+    "Position": "CLEANER",
+    "Position WORD": "CLEANER"
+  },
+  {
+    "First Name": "VELIAN SAMWEL",
+    "Last Name": "NDIMUGWANKO",
+    "Employee ID": 6033,
+    "Department": "SHEQ",
+    "Phone": "742218693",
+    "Position": "CLEANER",
+    "Position WORD": "CLEANER"
+  },
+  {
+    "First Name": "ZABELA AMOS",
+    "Last Name": "LAMECK",
+    "Employee ID": 6057,
+    "Department": "SHEQ",
+    "Phone": "716325187",
+    "Position": "CLEANER",
+    "Position WORD": "CLEANER"
+  },
+  {
+    "First Name": "ELIUD TUMAINI",
+    "Last Name": "RUHABULA",
+    "Employee ID": 5764,
+    "Department": "STORES",
+    "Phone": "611866970",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "ELIAS LEONARD",
+    "Last Name": "KHARIM",
+    "Employee ID": 5768,
+    "Department": "STORES",
+    "Phone": "794570719",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
     "First Name": "MUSSA",
     "Last Name": "EDWARD",
     "Employee ID": 2841,
@@ -12087,6 +16659,447 @@ export const employees = [
     "Position WORD": null
   },
   {
+    "First Name": "KASIMILI KALOHELA",
+    "Last Name": "KADANGI",
+    "Employee ID": 6078,
+    "Department": "STORE's",
+    "Phone": "637940491",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "ASHA KULWA",
+    "Last Name": "ATHUMANI",
+    "Employee ID": 6079,
+    "Department": "STORE's",
+    "Phone": "791599259",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "KALEBO ABELI",
+    "Last Name": "MSUHUKE",
+    "Employee ID": 6080,
+    "Department": "STORE's",
+    "Phone": "638300205",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "EVELINE NICHOLAUS",
+    "Last Name": "CHULI",
+    "Employee ID": 6081,
+    "Department": "STORE's",
+    "Phone": "686681476",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "JASTINE KISABAYA",
+    "Last Name": "RICHARD",
+    "Employee ID": 6082,
+    "Department": "STORE's",
+    "Phone": "619553032",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "JUSTINA NGASA",
+    "Last Name": "JILALA",
+    "Employee ID": 6083,
+    "Department": "STORE's",
+    "Phone": "688430752",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "RABSON ALEX",
+    "Last Name": "DEBALETA",
+    "Employee ID": 6084,
+    "Department": "STORE's",
+    "Phone": "702828921",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "JOYNESS NICHOLAUSI",
+    "Last Name": "CHULI",
+    "Employee ID": 6085,
+    "Department": "STORE's",
+    "Phone": "797413858",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "NESTORY NASHONI",
+    "Last Name": "BITIBIE",
+    "Employee ID": 6086,
+    "Department": "STORE's",
+    "Phone": "744669151",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "AGNESS MLENGELA",
+    "Last Name": "ANTONY",
+    "Employee ID": 6087,
+    "Department": "STORE's",
+    "Phone": "747329480",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "ASANTE ONESMO",
+    "Last Name": "PILI",
+    "Employee ID": 6088,
+    "Department": "STORE's",
+    "Phone": "757441868",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "TIPHANESS SENGI",
+    "Last Name": "MZAYANGA",
+    "Employee ID": 6089,
+    "Department": "STORE's",
+    "Phone": "760483418",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "KULWA ELIASI",
+    "Last Name": "JANUARY",
+    "Employee ID": 6090,
+    "Department": "STORE's",
+    "Phone": "787827638",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "TRISA LEOPORD",
+    "Last Name": "NYAMWERU",
+    "Employee ID": 6091,
+    "Department": "STORE's",
+    "Phone": "749288940",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "EDWARD DANIFORD",
+    "Last Name": "SETI",
+    "Employee ID": 6092,
+    "Department": "STORE's",
+    "Phone": "754038031",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "PHOTONATHA BELIUDI",
+    "Last Name": "BUYOBA",
+    "Employee ID": 6093,
+    "Department": "STORE's",
+    "Phone": "794260345",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "ISACKA JUMA",
+    "Last Name": "SEBUZI",
+    "Employee ID": 6094,
+    "Department": "STORE's",
+    "Phone": "759944550",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "AJUAYE PIUSI",
+    "Last Name": "JONNY",
+    "Employee ID": 6095,
+    "Department": "STORE's",
+    "Phone": "747717511",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "ANTONY JOHN",
+    "Last Name": "KIBABI",
+    "Employee ID": 6096,
+    "Department": "STORE's",
+    "Phone": "759477666",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "NEEMA SAMWEL",
+    "Last Name": "FUTI",
+    "Employee ID": 6097,
+    "Department": "STORE's",
+    "Phone": "768188983",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "EZBON KILUNGULU",
+    "Last Name": "NAS",
+    "Employee ID": 6098,
+    "Department": "STORE's",
+    "Phone": "744869618",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "UZIMA PASKARY",
+    "Last Name": "KAGINA",
+    "Employee ID": 6099,
+    "Department": "STORE's",
+    "Phone": "790705123",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "ERASTO KALIMANZIRA",
+    "Last Name": "LUSHOZA",
+    "Employee ID": 6100,
+    "Department": "STORE's",
+    "Phone": "769607132",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "TEDDY JOSEPH",
+    "Last Name": "PAUL",
+    "Employee ID": 6101,
+    "Department": "STORE's",
+    "Phone": "655312781",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "KLEDO ESTACH",
+    "Last Name": "BONIFASI",
+    "Employee ID": 6102,
+    "Department": "STORE's",
+    "Phone": "717039541",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "DUDBAYA JASTAZ",
+    "Last Name": "ROBERT",
+    "Employee ID": 6103,
+    "Department": "STORE's",
+    "Phone": "764119631",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "MAJUTO JASTIN",
+    "Last Name": "BUHOMORI",
+    "Employee ID": 6104,
+    "Department": "STORE's",
+    "Phone": "767576971",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "ELIASI CHAKATI",
+    "Last Name": "MAILA",
+    "Employee ID": 6105,
+    "Department": "STORE's",
+    "Phone": "768086144",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "BONIFACE CHARLES",
+    "Last Name": "JUMMANNE",
+    "Employee ID": 6106,
+    "Department": "STORE's",
+    "Phone": "746845046",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "ABRAM DAUSON",
+    "Last Name": "ADOLF",
+    "Employee ID": 6107,
+    "Department": "STORE's",
+    "Phone": "763097398",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "PHILIMON BENARD",
+    "Last Name": "BDAKUBITE",
+    "Employee ID": 6108,
+    "Department": "STORE's",
+    "Phone": "769487221",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "JAMES  AMON",
+    "Last Name": "CHUBWA",
+    "Employee ID": 6110,
+    "Department": "STORE's",
+    "Phone": "678862934",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "BEST ELISHA",
+    "Last Name": "NDAHIBA",
+    "Employee ID": 6111,
+    "Department": "STORE's",
+    "Phone": "712743613",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "NOELIA LADSILAUSI",
+    "Last Name": "BEATUSI",
+    "Employee ID": 6112,
+    "Department": "STORE's",
+    "Phone": "793533897",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "JOSEPH MWOLO",
+    "Last Name": "CHULILA",
+    "Employee ID": 6114,
+    "Department": "STORE's",
+    "Phone": "659526943",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "ZUMBE SAIDI",
+    "Last Name": "JUMMA",
+    "Employee ID": 6127,
+    "Department": "STORE's",
+    "Phone": "619171541",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "DAUSONI HARUNA",
+    "Last Name": "ILAGELA",
+    "Employee ID": 6128,
+    "Department": "STORE's",
+    "Phone": "664548531",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "ESTHER",
+    "Last Name": "BENALD",
+    "Employee ID": 6129,
+    "Department": "STORE's",
+    "Phone": "758776234",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "YAKOBO",
+    "Last Name": "PHILIPO",
+    "Employee ID": 6130,
+    "Department": "STORE's",
+    "Phone": "792439813",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "RAJABU",
+    "Last Name": "HAMISS",
+    "Employee ID": 6131,
+    "Department": "STORE's",
+    "Phone": "650784668",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "NKAPAGI MOSHI",
+    "Last Name": "NKAPAGI",
+    "Employee ID": 5925,
+    "Department": "STORE's",
+    "Phone": "792026756",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "ELIBARIKI CHRISTOPHA",
+    "Last Name": "BAVUMA",
+    "Employee ID": 5928,
+    "Department": "STORE's",
+    "Phone": "745677057",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "EDWINI SIMON",
+    "Last Name": "NTABO",
+    "Employee ID": 5926,
+    "Department": "STORE's",
+    "Phone": "617396113",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "OBEID",
+    "Last Name": "SYLIVESTER",
+    "Employee ID": 5924,
+    "Department": "STORE's",
+    "Phone": "623837037",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "EMMANUEL",
+    "Last Name": "ABEL",
+    "Employee ID": 5921,
+    "Department": "STORE's",
+    "Phone": "663937246",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "CHRISTINA",
+    "Last Name": "MIHAYO",
+    "Employee ID": 5947,
+    "Department": "STORE's",
+    "Phone": "754070677",
+    "Position": "STOERE OFFICER",
+    "Position WORD": "STOERE OFFICER"
+  },
+  {
+    "First Name": "MAJUTO JASTIN",
+    "Last Name": "BUHOMORI",
+    "Employee ID": 7104,
+    "Department": "STORE's",
+    "Phone": "767576971",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "MATHAYO MERDAD",
+    "Last Name": "MAKINKILI",
+    "Employee ID": 6134,
+    "Department": "STORE's",
+    "Phone": "768086144",
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
+    "First Name": "BENEDICTO JAMES",
+    "Last Name": "MAGULU",
+    "Employee ID": 4720,
+    "Department": "STORE's",
+    "Phone": null,
+    "Position": "STORE HELPER",
+    "Position WORD": "STORE HELPER"
+  },
+  {
     "First Name": "MELKISEDEK N",
     "Last Name": "MANGALILI",
     "Employee ID": 75,
@@ -12128,15 +17141,6 @@ export const employees = [
     "Employee ID": 416,
     "Department": "SURVEY",
     "Phone": "624478891",
-    "Position": "HELPER",
-    "Position WORD": "HELPER"
-  },
-  {
-    "First Name": "ASHURA",
-    "Last Name": "OTTO",
-    "Employee ID": 970,
-    "Department": "SURVEY",
-    "Phone": "792271262",
     "Position": "HELPER",
     "Position WORD": "HELPER"
   },
@@ -12229,15 +17233,6 @@ export const employees = [
     "Phone": "763426284",
     "Position": "MANAGER",
     "Position WORD": "MANAGER"
-  },
-  {
-    "First Name": "WILBROD",
-    "Last Name": "SELEMAN",
-    "Employee ID": 1348,
-    "Department": "SURVEY",
-    "Phone": "655383560",
-    "Position": "HELPER",
-    "Position WORD": "HELPER"
   },
   {
     "First Name": "BOSCO",
@@ -12515,6 +17510,123 @@ export const employees = [
     "Employee ID": 5514,
     "Department": "SURVEYOR",
     "Phone": "743407476",
+    "Position": "SURVEY HELPER",
+    "Position WORD": "SURVEY HELPER"
+  },
+  {
+    "First Name": "JANETH MARTIN",
+    "Last Name": "MWASOMOLA",
+    "Employee ID": 5895,
+    "Department": "SURVEYOR",
+    "Phone": "673465458",
+    "Position": "SURVEYOR",
+    "Position WORD": "SURVEYOR"
+  },
+  {
+    "First Name": "ANUARI KARIM",
+    "Last Name": "RAJABU",
+    "Employee ID": 5894,
+    "Department": "SURVEYOR",
+    "Phone": "702013691",
+    "Position": "SURVEYOR",
+    "Position WORD": "SURVEYOR"
+  },
+  {
+    "First Name": "ELENIA FRUMENCE",
+    "Last Name": "MINJA",
+    "Employee ID": 5912,
+    "Department": "SURVEYOR",
+    "Phone": "757314544",
+    "Position": "SURVEYOR",
+    "Position WORD": "SURVEYOR"
+  },
+  {
+    "First Name": "JEROME AUDAX",
+    "Last Name": "OSEPH",
+    "Employee ID": 5913,
+    "Department": "SURVEYOR",
+    "Phone": null,
+    "Position": "SURVEYOR",
+    "Position WORD": "SURVEYOR"
+  },
+  {
+    "First Name": "INNOCENT LAZACK",
+    "Last Name": "MATHIAS",
+    "Employee ID": 6226,
+    "Department": "SURVEYOR",
+    "Phone": "628751371",
+    "Position": "SURVEY HELPER",
+    "Position WORD": "SURVEY HELPER"
+  },
+  {
+    "First Name": "NICKOLAUS LEONARD",
+    "Last Name": "MADEBERI",
+    "Employee ID": 6228,
+    "Department": "SURVEYOR",
+    "Phone": "611556568",
+    "Position": "SURVEY HELPER",
+    "Position WORD": "SURVEY HELPER"
+  },
+  {
+    "First Name": "JAMES DANIEL",
+    "Last Name": "YOSAM",
+    "Employee ID": 6227,
+    "Department": "SURVEYOR",
+    "Phone": "795405058",
+    "Position": "SURVEY HELPER",
+    "Position WORD": "SURVEY HELPER"
+  },
+  {
+    "First Name": "ALEX EVATH",
+    "Last Name": "KASEKE",
+    "Employee ID": 6169,
+    "Department": "SURVEYOR",
+    "Phone": "611554582",
+    "Position": "SURVEY HELPER",
+    "Position WORD": "SURVEY HELPER"
+  },
+  {
+    "First Name": "ARISTIDES DAMIAN",
+    "Last Name": "KATI",
+    "Employee ID": 6160,
+    "Department": "SURVEYOR",
+    "Phone": "767601879",
+    "Position": "SURVEY HELPER",
+    "Position WORD": "SURVEY HELPER"
+  },
+  {
+    "First Name": "ELIMOS SAIMON",
+    "Last Name": "MATHEW",
+    "Employee ID": 6355,
+    "Department": "SURVEYOR",
+    "Phone": null,
+    "Position": "SURVEY HELPER",
+    "Position WORD": "SURVEY HELPER"
+  },
+  {
+    "First Name": "BENSON BENEDICTO",
+    "Last Name": "KABOYI",
+    "Employee ID": 6373,
+    "Department": "SURVEYOR",
+    "Phone": "750719010",
+    "Position": "SURVEY HELPER",
+    "Position WORD": "SURVEY HELPER"
+  },
+  {
+    "First Name": "MACHIYA EMMANUEL",
+    "Last Name": "KACHEYEKELE",
+    "Employee ID": 6369,
+    "Department": "SURVEYOR",
+    "Phone": "740676488",
+    "Position": "SURVEY HELPER",
+    "Position WORD": "SURVEY HELPER"
+  },
+  {
+    "First Name": "SELESTINO NGOWENIKI",
+    "Last Name": "SYARUMBE",
+    "Employee ID": 6416,
+    "Department": "SURVEYOR",
+    "Phone": null,
     "Position": "SURVEY HELPER",
     "Position WORD": "SURVEY HELPER"
   },
@@ -12902,15 +18014,6 @@ export const employees = [
     "Employee ID": 4236,
     "Department": "TRANSPORT",
     "Phone": "792393494",
-    "Position": "Conductor",
-    "Position WORD": null
-  },
-  {
-    "First Name": "JOSIAH ERASTO",
-    "Last Name": "NDAHYA",
-    "Employee ID": 4237,
-    "Department": "TRANSPORT",
-    "Phone": "625206451",
     "Position": "Conductor",
     "Position WORD": null
   },
@@ -14211,174 +19314,12 @@ export const employees = [
     "Position WORD": "MECHANIC"
   },
   {
-    "First Name": "Michael",
-    "Last Name": "Emmanuel",
-    "Employee ID": 1562,
-    "Department": "IRRIGATION",
-    "Phone": "793760070",
-    "Position": "EXCAVATOR OPERATOR",
-    "Position WORD": "EXCAVATOR OPERATOR"
-  },
-  {
-    "First Name": "Yasiri",
-    "Last Name": "Arafat",
-    "Employee ID": 3320,
-    "Department": "IRRIGATION",
-    "Phone": "764223172",
-    "Position": "EXCAVATOR OPERATOR",
-    "Position WORD": "EXCAVATOR OPERATOR"
-  },
-  {
-    "First Name": "Charles",
-    "Last Name": "sobu",
-    "Employee ID": 5563,
-    "Department": "IRRIGATION",
-    "Phone": "786493123",
-    "Position": "EXCAVATOR OPERATOR",
-    "Position WORD": "EXCAVATOR OPERATOR"
-  },
-  {
-    "First Name": "LUCAS",
-    "Last Name": "BONIFACE",
-    "Employee ID": 4692,
-    "Department": "IRRIGATION",
-    "Phone": "756569615",
-    "Position": "SUPERVISOR",
-    "Position WORD": "SUPERVISOR"
-  },
-  {
-    "First Name": "YUSUPH ABDALLAH",
-    "Last Name": "SOLLAH",
-    "Employee ID": 5536,
-    "Department": "SECURITY",
-    "Phone": "759212263",
-    "Position": "SECURITY OFFICER",
-    "Position WORD": "SECURITY OFFICER"
-  },
-  {
-    "First Name": "SUZAN EMMANUEL",
-    "Last Name": "MAMBOLEO",
-    "Employee ID": 5538,
-    "Department": "SECURITY",
-    "Phone": "634849714",
-    "Position": "SECURITY OFFICER",
-    "Position WORD": "SECURITY OFFICER"
-  },
-  {
-    "First Name": "JENIPHER SIMON",
-    "Last Name": "BUZIZI",
-    "Employee ID": 5539,
-    "Department": "SECURITY",
-    "Phone": "623712113",
-    "Position": "SECURITY OFFICER",
-    "Position WORD": "SECURITY OFFICER"
-  },
-  {
-    "First Name": "LETICIA SAMSON",
-    "Last Name": "KAYULI",
-    "Employee ID": 5552,
-    "Department": "SECURITY",
-    "Phone": "653365862",
-    "Position": "FUEL ATTENDANT",
-    "Position WORD": "FUEL ATTENDANT"
-  },
-  {
-    "First Name": "DANFORD RABSON",
-    "Last Name": "MAPOLI",
-    "Employee ID": 5553,
-    "Department": "SECURITY",
-    "Phone": "749676965",
-    "Position": "FUEL ATTENDANT",
-    "Position WORD": "FUEL ATTENDANT"
-  },
-  {
-    "First Name": "DICKSON DEUSDEDITH",
-    "Last Name": "ELIAS",
-    "Employee ID": 3884,
-    "Department": "SECURITY",
-    "Phone": "752363604",
-    "Position": "SECURITY OFFICER",
-    "Position WORD": "SECURITY OFFICER"
-  },
-  {
-    "First Name": "FABIAN EDWARD",
-    "Last Name": "NJAHASI",
-    "Employee ID": 11,
-    "Department": "Land Department",
-    "Phone": null,
-    "Position": "TRACTOR OPERATOR",
-    "Position WORD": "TRACTOR OPERATOR"
-  },
-  {
-    "First Name": "MICHAEL",
-    "Last Name": "JUMA",
-    "Employee ID": 226,
-    "Department": "Land Department",
-    "Phone": null,
-    "Position": "TRACTOR OPERATOR",
-    "Position WORD": "TRACTOR OPERATOR"
-  },
-  {
-    "First Name": "BARAKA JAMES",
-    "Last Name": "LUKUNGA",
-    "Employee ID": 2666,
-    "Department": "Land Department",
-    "Phone": null,
-    "Position": "GRADER OPERATOR",
-    "Position WORD": "GRADER OPERATOR"
-  },
-  {
-    "First Name": "MODEST HERMAN",
-    "Last Name": "CHAKUPEWA",
-    "Employee ID": 5409,
-    "Department": "Land Department",
-    "Phone": null,
-    "Position": "ROOT PICKERS",
-    "Position WORD": "ROOT PICKERS"
-  },
-  {
-    "First Name": "TAMALI SAMWELI",
-    "Last Name": "NDIMUGWANKO",
-    "Employee ID": 5020,
-    "Department": "Land Department",
-    "Phone": null,
-    "Position": "CHAINSAW OPERATOR",
-    "Position WORD": "CHAINSAW OPERATOR"
-  },
-  {
-    "First Name": "GIVEN AIDAN",
-    "Last Name": "BWENDE",
-    "Employee ID": 3397,
-    "Department": "Land Department",
-    "Phone": null,
-    "Position": "TRACTOR OPERATOR",
-    "Position WORD": "TRACTOR OPERATOR"
-  },
-  {
-    "First Name": "ELIYA PHILIPO",
-    "Last Name": "SIMON",
-    "Employee ID": 5494,
-    "Department": "Land Department",
-    "Phone": null,
-    "Position": "HYDRACANE OPERATOR",
-    "Position WORD": "HYDRACANE OPERATOR"
-  },
-  {
-    "First Name": "SELEMANI TABU",
-    "Last Name": "BUSAGE",
-    "Employee ID": 3951,
-    "Department": "CIVIL",
-    "Phone": "754970617",
-    "Position": "CIVIL SUPERVISOR",
-    "Position WORD": "CIVIL SUPERVISOR"
-  },
-  {
-    "First Name": "JOYCE ERNEST",
-    "Last Name": "KILITO",
-    "Employee ID": 5568,
-    "Department": "Land Department",
-    "Phone": null,
-    "Position": "SUPERVISOR",
-    "Position WORD": null
+    "First Name": "DORCA JOHNSTONE",
+    "Last Name": "SHAMBA",
+    "Employee ID": 5629,
+    "Department": "WORKSHOP",
+    "Phone": "764764381",
+    "Position": "MECHANICS",
+    "Position WORD": "MECHANICS"
   }
 ];
